@@ -1,0 +1,483 @@
+[
+  {
+    "text": "i am excited",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "happy",
+        "entity": "emotion"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "when catching a cold, how to treat a",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "a cold",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 14,
+        "end": 20,
+        "value": "a cold",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "disease",
+        "start": 35,
+        "end": 36,
+        "value": "a",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what disease is alveolar proteinosis?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 16,
+        "end": 36,
+        "value": "alveolar proteinosis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what should i do when i have bullae?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 29,
+        "end": 35,
+        "value": "bullae",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how to treat when infected with alveolar proteinosis?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 32,
+        "end": 52,
+        "value": "alveolar proteinosis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how to deal with alveolar proteinosis?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 17,
+        "end": 37,
+        "value": "alveolar proteinosis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what should i do if i have an adult respiratory distress syndrome?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 65,
+        "value": "adult respiratory distress syndrome",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 27,
+        "end": 29,
+        "value": "an",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "disease",
+        "start": 30,
+        "end": 65,
+        "value": "adult respiratory distress syndrome",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "will it be a sign of adult respiratory distress syndrome?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 56,
+        "value": "adult respiratory distress syndrome",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 11,
+        "end": 12,
+        "value": "a",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "disease",
+        "start": 21,
+        "end": 56,
+        "value": "adult respiratory distress syndrome",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what are the signs of alveolar proteinosis?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 22,
+        "end": 42,
+        "value": "alveolar proteinosis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "got the performance of alveolar proteinosis?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 23,
+        "end": 43,
+        "value": "alveolar proteinosis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "alveolar proteinosis will be characterized when",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 0,
+        "end": 20,
+        "value": "alveolar proteinosis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phenomenon of alveolar proteinosis",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 14,
+        "end": 34,
+        "value": "alveolar proteinosis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "infection with pulmonary bullae",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "value": "pulmonary bullae",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 25,
+        "end": 31,
+        "value": "bullae",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "why get on alveolar protein deposition disease",
+    "entities": [
+      {
+        "start": 11,
+        "end": 46,
+        "value": "alveolar protein deposition disease",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how to give birth to alveolar protein deposition disease",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 21,
+        "end": 56,
+        "value": "alveolar protein deposition disease",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "why suffer from pulmonary bullae?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 32,
+        "value": "pulmonary bullae",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 26,
+        "end": 32,
+        "value": "bullae",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "causes of infection with pulmonary bullae",
+    "entities": [
+      {
+        "start": 25,
+        "end": 41,
+        "value": "pulmonary bullae",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 35,
+        "end": 41,
+        "value": "bullae",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "why give birth to alveolar protein deposition disease?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 18,
+        "end": 53,
+        "value": "alveolar protein deposition disease",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how can i get alveolar proteinosis?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 14,
+        "end": 34,
+        "value": "alveolar proteinosis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "avoid infection with alveolar protein deposition disease",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 21,
+        "end": 56,
+        "value": "alveolar protein deposition disease",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "it's okay to escape the lung bullae",
+    "entities": [
+      {
+        "start": 29,
+        "end": 35,
+        "value": "bullae",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how can you not lung bullae",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "bullae",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "pulmonary bullae in susceptible people",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "pulmonary bullae",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 10,
+        "end": 16,
+        "value": "bullae",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who is the lung bullae?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 16,
+        "end": 22,
+        "value": "bullae",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "alveolar protein deposition disease in prone population",
+    "entities": [
+      {
+        "start": 0,
+        "end": 35,
+        "value": "alveolar protein deposition disease",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what person is simple pulmonary eosinophilic infiltration disease",
+    "entities": [
+      {
+        "start": 15,
+        "end": 65,
+        "value": "simple pulmonary eosinophilic infiltration disease",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what department of alveolar proteinosis?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 19,
+        "end": 39,
+        "value": "alveolar proteinosis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pulmonary bullae department",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "pulmonary bullae",
+        "entity": "disease"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 10,
+        "end": 16,
+        "value": "bullae",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "alveolar proteinosis belongs to",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 0,
+        "end": 20,
+        "value": "alveolar proteinosis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what department does alveolar proteinosis belong to?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 21,
+        "end": 41,
+        "value": "alveolar proteinosis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the poisoning of carbon disulfide?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 12,
+        "end": 21,
+        "value": "poisoning",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "disease",
+        "start": 25,
+        "end": 41,
+        "value": "carbon disulfide",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

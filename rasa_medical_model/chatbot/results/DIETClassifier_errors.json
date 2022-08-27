@@ -1,0 +1,38 @@
+[
+  {
+    "text": "I am feeling very good",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "emotion",
+        "start": 13,
+        "end": 17,
+        "value": "very",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "emotion",
+        "start": 18,
+        "end": 22,
+        "value": "good",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "unhappy",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "emotion",
+        "start": 0,
+        "end": 7,
+        "value": "sad",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

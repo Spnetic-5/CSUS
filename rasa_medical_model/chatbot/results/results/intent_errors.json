@@ -1,0 +1,274 @@
+[
+  {
+    "text": "i am excited",
+    "intent": "get_emotion",
+    "intent_prediction": {
+      "name": "smalltalk_user_excited",
+      "confidence": 0.9330387115478516
+    }
+  },
+  {
+    "text": "you're not wrong",
+    "intent": "smalltalk_agent_right",
+    "intent_prediction": {
+      "name": "smalltalk_dialog_wrong",
+      "confidence": 0.9134569764137268
+    }
+  },
+  {
+    "text": "splendid",
+    "intent": "smalltalk_appraisal_good",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.8802512288093567
+    }
+  },
+  {
+    "text": "how to get allergic pneumonia?",
+    "intent": "search_treat",
+    "intent_prediction": {
+      "name": "search_cause",
+      "confidence": 0.9718921780586243
+    }
+  },
+  {
+    "text": "infected with sars",
+    "intent": "search_treat",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.933796763420105
+    }
+  },
+  {
+    "text": "got pulmonary hemorrhage-nephritis syndrome?",
+    "intent": "search_treat",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.9228287935256958
+    }
+  },
+  {
+    "text": "when suffering from goodpasture syndrome",
+    "intent": "search_treat",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.5367153882980347
+    }
+  },
+  {
+    "text": "are you infected with lung cancer?",
+    "intent": "search_treat",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.8718864917755127
+    }
+  },
+  {
+    "text": "suffering from pulmonary hemorrhage-nephritis syndrome?",
+    "intent": "search_treat",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.9589173793792725
+    }
+  },
+  {
+    "text": "how to get pneumonia pseudotumor",
+    "intent": "search_treat",
+    "intent_prediction": {
+      "name": "search_cause",
+      "confidence": 0.9087170362472534
+    }
+  },
+  {
+    "text": "how to get lung cancer",
+    "intent": "search_treat",
+    "intent_prediction": {
+      "name": "search_cause",
+      "confidence": 0.8488839864730835
+    }
+  },
+  {
+    "text": "got pneumococcal pneumonia",
+    "intent": "search_treat",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.7536694407463074
+    }
+  },
+  {
+    "text": "did you get carbon disulfide poisoning?",
+    "intent": "search_treat",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.9014456272125244
+    }
+  },
+  {
+    "text": "it’s good when you catch a cold",
+    "intent": "search_treat",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.5953231453895569
+    }
+  },
+  {
+    "text": "how to get a cold?",
+    "intent": "search_cause",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.6039639115333557
+    }
+  },
+  {
+    "text": "respiratory bronchiole-related interstitial lung disease?",
+    "intent": "search_cause",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.9218183159828186
+    }
+  },
+  {
+    "text": "do you have a lot of amniotic fluid inhalation?",
+    "intent": "search_cause",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.9983170032501221
+    }
+  },
+  {
+    "text": "are you infected with allergic pneumonia?",
+    "intent": "search_cause",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.7799736261367798
+    }
+  },
+  {
+    "text": "what is pneumonia?",
+    "intent": "search_prevention",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.7144824266433716
+    }
+  },
+  {
+    "text": "pulmonary bullae?",
+    "intent": "search_easy_get",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.7848108410835266
+    }
+  },
+  {
+    "text": "pneumonia pseudotumor?",
+    "intent": "search_easy_get",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.5528190732002258
+    }
+  },
+  {
+    "text": "pulmonary-pleural amebiasis?",
+    "intent": "search_easy_get",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.5354152321815491
+    }
+  },
+  {
+    "text": "pneumonia bacillus pneumonia?",
+    "intent": "search_easy_get",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.5108214020729065
+    }
+  },
+  {
+    "text": "what is adult respiratory distress syndrome?",
+    "intent": "search_easy_get",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.9874929785728455
+    }
+  },
+  {
+    "text": "what is sars?",
+    "intent": "search_easy_get",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.9100752472877502
+    }
+  },
+  {
+    "text": "what is the foreign body in the respiratory tract?",
+    "intent": "search_easy_get",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.5529068112373352
+    }
+  },
+  {
+    "text": "whooping cough?",
+    "intent": "search_easy_get",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.92064368724823
+    }
+  },
+  {
+    "text": "allergic pneumonia",
+    "intent": "search_easy_get",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.7973743081092834
+    }
+  },
+  {
+    "text": "respiratory bronchiole-related interstitial lung disease is a good thing",
+    "intent": "search_disease_dept",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.5164281725883484
+    }
+  },
+  {
+    "text": "what is a lot of amniotic fluid inhalation?",
+    "intent": "search_disease_dept",
+    "intent_prediction": {
+      "name": "search_easy_get",
+      "confidence": 0.5944909453392029
+    }
+  },
+  {
+    "text": "what is goodpasture syndrome?",
+    "intent": "search_disease_dept",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.9655758738517761
+    }
+  },
+  {
+    "text": "what is benzene poisoning?",
+    "intent": "search_disease_dept",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.8898805379867554
+    }
+  },
+  {
+    "text": "what is the poisoning of carbon disulfide?",
+    "intent": "search_disease_dept",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.607958197593689
+    }
+  },
+  {
+    "text": "what is good for a cold?",
+    "intent": "search_disease_dept",
+    "intent_prediction": {
+      "name": "search_symptom",
+      "confidence": 0.6232355833053589
+    }
+  }
+]

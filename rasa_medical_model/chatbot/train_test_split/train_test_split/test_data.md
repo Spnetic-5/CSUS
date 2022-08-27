@@ -1,0 +1,2339 @@
+## intent:get_all_records
+- show me my records
+- i wanna know my medical history
+- i want to get records for [Elvis](username)
+
+## intent:greet
+- whats up
+- hello
+
+## intent:goodbye
+- you can go now
+- that's it goodbye
+- leave me alone
+- bye for now
+- okay see you later
+- see ya
+- talk to you later
+- see you later
+
+## intent:affirm
+- definitely
+- alrighty
+- yup
+- yap
+- yea
+- indeed
+- yes thank you
+- yeah I'm sure
+- I think so
+- yes I would like to
+- okie dokie
+- yes right
+- yes for sure
+- sure why not
+- yes I agree
+- ok
+- yeah right
+
+## intent:deny
+- let 's not
+- no need
+- how about no
+- no I would not
+- actually no
+- no need thanks
+- not really no
+- no do not
+- disagree
+- no sorry
+- not interested
+- no actually
+- no that's wrong
+- no don't do that
+
+## intent:ask_form
+- i want to upload a file
+
+## intent:ask_weather_location
+- is it rainy in [pune](location)
+- tell me weather conditions at [bhopal](location)
+- tell me weather conditions at [chennai](location)
+- what is the weather in [Mumbai](location)
+- please tell me the weather at [udaipur](location)
+- is it hot in [thiruvananthapuram](location)
+- please tell me the weather at [ahmedabad](location)
+- is it windy in [mumbai](location)
+- whats the weather in [bhopal](location)
+- is it hot in [surat](location)
+- whats the weather in [banglore](location)
+- is it rainy in [mangluru](location)
+- whats the weather in [delhi](location)
+- is it sunny in [panjim](location)
+- is it hot in [chennai](location)
+- is it rainy in [hyderabad](location)
+- is it hot in [hyderabad](location)
+- please tell me the weather at [delhi](location)
+- is it hot in [ahmedabad](location)
+- please tell me the weather at [pune](location)
+- is it sunny in [udaipur](location)
+- is it hot in [shimla](location)
+- whats the weather in [thiruvananthapuram](location)
+- whats the weather in [chandigarh](location)
+- whats the weather in [hyderabad](location)
+- is it sunny in [bhopal](location)
+- is it hot in [bhopal](location)
+- tell me weather conditions at [kolkata](location)
+- is it windy in [ahmedabad](location)
+
+## intent:ask_temperature
+- whats the temperature in [bhopal](location)
+- please tell me the temperature at [mumbai](location)
+- please tell me the temperature at [thiruvananthapuram](location)
+- please tell me the temperature at [kolkata](location)
+- tell me temperature conditions at [thiruvananthapuram](location)
+- please tell me the temperature at [udaipur](location)
+- whats the temperature in [shimla](location)
+- whats the temperature in [thiruvananthapuram](location)
+- please tell me the temperature at [surat](location)
+- whats the temperature in [jaipur](location)
+- whats the temperature in [surat](location)
+- please tell me the temperature at [nagpur](location)
+- whats the temperature in [hyderabad](location)
+
+## intent:get_emotion
+- i am feeling [flabergasted]{"entity": "emotion", "value": "angry"}
+- god only knows i am [irritated]{"entity": "emotion", "value": "angry"}
+- i am feeling [irritated]{"entity": "emotion", "value": "angry"}
+- i am feeling [happiness]{"entity": "emotion", "value": "happy"}
+- god only knows i am [irked]{"entity": "emotion", "value": "angry"}
+- this feeling of [indignance]{"entity": "emotion", "value": "angry"}
+- god only knows i am [disgusted]{"entity": "emotion", "value": "angry"}
+- this feeling of [disgust]{"entity": "emotion", "value": "angry"}
+- i am [indignant]{"entity": "emotion", "value": "angry"}
+- i am [disgusted]{"entity": "emotion", "value": "angry"}
+- Lately i have been [irate]{"entity": "emotion", "value": "angry"}
+- Lately i have been [suicidal]{"entity": "emotion", "value": "sad"}
+- i have been [inflamed]{"entity": "emotion", "value": "angry"} lately
+- i am [excited]{"entity": "emotion", "value": "happy"}
+- take away my [over the moon]{"entity": "emotion", "value": "happy"}
+- i am [unhappy]{"entity": "emotion", "value": "sad"}
+- i feel [grieving]{"entity": "emotion", "value": "sad"}
+- this feeling of [mourning]{"entity": "emotion", "value": "sad"}
+- i am [displeased]{"entity": "emotion", "value": "angry"}
+- take away my [content]{"entity": "emotion", "value": "happy"}
+- i feel [unhappiness]{"entity": "emotion", "value": "sad"}
+- this feeling of [merry]{"entity": "emotion", "value": "happy"}
+- god only knows i am [depressed]{"entity": "emotion", "value": "sad"}
+- i am [inflamed]{"entity": "emotion", "value": "angry"}
+- take away my [lonely]{"entity": "emotion", "value": "sad"}
+- i feel [irritated]{"entity": "emotion", "value": "angry"}
+- i feel like [smiling]{"entity": "emotion", "value": "happy"}
+- i am feeling [merry]{"entity": "emotion", "value": "happy"}
+- i feel [pain]{"entity": "emotion", "value": "sad"}
+- this feeling of [depression]{"entity": "emotion", "value": "sad"}
+- i have been [suicidal]{"entity": "emotion", "value": "sad"} lately
+- god only knows i am [annoyed]{"entity": "emotion", "value": "angry"}
+- take away my [cross]{"entity": "emotion", "value": "angry"}
+- i am feeling [irked]{"entity": "emotion", "value": "angry"}
+- i am [mourning]{"entity": "emotion", "value": "sad"}
+- this feeling of [death]{"entity": "emotion", "value": "sad"}
+- i have been [mourning]{"entity": "emotion", "value": "sad"} lately
+- Lately i have been [disgusted]{"entity": "emotion", "value": "angry"}
+- i have been [aggravated]{"entity": "emotion", "value": "angry"} lately
+- i feel [sorrow]{"entity": "emotion", "value": "sad"}
+- Lately i have been [suffering]{"entity": "emotion", "value": "sad"}
+- god only knows i am [sorrow]{"entity": "emotion", "value": "sad"}
+- i am [suicidal]{"entity": "emotion", "value": "sad"}
+- i am feeling [jolly good]{"entity": "emotion", "value": "happy"}
+- i am feeling [dejected]{"entity": "emotion", "value": "sad"}
+- Lately i have been [happy](emotion)
+- take away my [gratified]{"entity": "emotion", "value": "happy"}
+- Lately i have been [overjoyed]{"entity": "emotion", "value": "happy"}
+- this feeling of [exasperation]{"entity": "emotion", "value": "angry"}
+- god only knows i am [happiness]{"entity": "emotion", "value": "happy"}
+- i have been [irritated]{"entity": "emotion", "value": "angry"} lately
+- Lately i have been [contented]{"entity": "emotion", "value": "happy"}
+- i am [happy](emotion)
+- i feel [gratified]{"entity": "emotion", "value": "happy"}
+- Lately i have been [out of sorts]{"entity": "emotion", "value": "sad"}
+- god only knows i am [inflamed]{"entity": "emotion", "value": "angry"}
+- i am feeling [joy]{"entity": "emotion", "value": "happy"}
+- i am feeling [down]{"entity": "emotion", "value": "sad"}
+- Lately i have been experiencing [death]{"entity": "emotion", "value": "sad"}
+- i feel [cheerful]{"entity": "emotion", "value": "happy"}
+- take away my [piqued]{"entity": "emotion", "value": "angry"}
+- god only knows i am [vexed]{"entity": "emotion", "value": "angry"}
+- take away my [suicidal]{"entity": "emotion", "value": "sad"}
+- i feel [vexed]{"entity": "emotion", "value": "angry"}
+- this feeling of [irritation]{"entity": "emotion", "value": "angry"}
+- god only knows i am [smiling]{"entity": "emotion", "value": "happy"}
+- i have been [excitement]{"entity": "emotion", "value": "happy"} lately
+- i am feeling [suicidal]{"entity": "emotion", "value": "sad"}
+- i feel [inflamed]{"entity": "emotion", "value": "angry"}
+- i have been [depressed]{"entity": "emotion", "value": "sad"} lately
+- i am feeling [inflamed]{"entity": "emotion", "value": "angry"}
+- take away my [vexed]{"entity": "emotion", "value": "angry"}
+- i have been [jolly good]{"entity": "emotion", "value": "happy"} lately
+
+## intent:describe_symptoms
+- My child is suffering from [limping in a child](symptom) and [laceration](symptom)
+- My son is suffering from [vaginal bleeding](symptom), [hypothermia](symptom), [blood in vomit](symptom), [rectal pain](symptom)
+- I have really bad [jaundice](symptom), [hoarse voice](symptom), and [swallowing problem](symptom)
+- I have really bad [incontinence](symptom) and [rash](symptom)
+- My child is suffering from [pelvic pain](symptom)
+- My child is suffering from [arm numbness](symptom), [shin pain](symptom), [visual flashing lights](symptom), [facial pain](symptom)
+- I'm suffering from [blurry vision](symptom), [vertigo](symptom), and [sweating](symptom)
+- My daughter is suffering from [learning difficulties](symptom)
+- My child is suffering from [scrotal swelling](symptom) and [leg ache or pain](symptom)
+- My child is suffering from [weakness](symptom) and [mouth ulcers](symptom)
+- My wife is suffering from [vaginal itching](symptom), [painful rash](symptom), and [head injury](symptom)
+- My husband is suffering from [shoulder ache or pain](symptom) and [spider bite](symptom)
+- For the last few days I have had [vaginal itching](symptom)
+- I have really bad [hand redness](symptom), [arm swelling](symptom), and [foot itching](symptom)
+- My symptoms are [heart murmur](symptom), [pain in the ear](symptom), and [insect sting](symptom)
+- My son is suffering from [pain or soreness of breast](symptom)
+- My son is suffering from [painful gums](symptom)
+- My symptoms are [alcohol abuse](symptom) and [hives](symptom)
+- I don't feel well, I have [hypothermia](symptom), [leg ache or pain](symptom), [sleep disorders](symptom), [foot swelling](symptom)
+- My husband is suffering from [calf swelling](symptom), [wrist swelling](symptom), and [unsteady gait](symptom)
+- I have really bad [bleeding in brain](symptom), [tired](symptom), and [frequent urination](symptom)
+- I'm suffering from [anger](symptom)
+- I have really bad [poisoning](symptom)
+- My son is suffering from [choking](symptom), [flank pain](symptom), [skin pain](symptom), [groin pain](symptom)
+- My wife is suffering from [blister](symptom), [blood in urine](symptom), [joint pain](symptom), [skin itching](symptom)
+- My son is suffering from [agitated](symptom) and [congestion in chest or lungs](symptom)
+- My daughter is suffering from [blurry vision](symptom), [hives](symptom), and [unusual color or odor of urine](symptom)
+- My husband is suffering from [groin pain](symptom) and [kidney pain](symptom)
+- My daughter is suffering from [ankle pain](symptom), [constipation](symptom), and [rectal swelling](symptom)
+- I have really bad [skin itching](symptom)
+- I'm suffering from [eye swelling](symptom)
+- I have really bad [high blood pressure](symptom)
+- My husband is suffering from [hand, finger ache or pain](symptom), [chest pain](symptom), [constipation](symptom), [cough](symptom)
+- I have [joint stiffness](symptom)
+- My husband is suffering from [delusions or hallucinations](symptom)
+- I'm suffering from [eye floaters](symptom) and [suicidal tendencies](symptom)
+- I have really bad [infertility](symptom), [hair loss](symptom), [leg itching](symptom), [snoring](symptom)
+- My daughter is suffering from [ear pressure](symptom), [dry skin](symptom), [pelvic pain](symptom), [bleeding in brain](symptom)
+- My husband is suffering from [hand numbness](symptom), [frequent urination](symptom), [vaginal discharge](symptom), [heart pulsations and palpitations](symptom)
+- My daughter is suffering from [rectal pain](symptom)
+- My son is suffering from [calf pain](symptom), [hemoptysis](symptom), [leg redness](symptom), [facial pain](symptom)
+- My symptoms are [mouth pain](symptom)
+- I don't feel well, I have [incontinence](symptom)
+- My husband is suffering from [elbow ache or pain](symptom)
+- My daughter is suffering from [ear pressure](symptom), [vomiting](symptom), and [dementia](symptom)
+- My husband is suffering from [skin infection](symptom), [anxiety](symptom), and [difficulty breathing](symptom)
+- My daughter is suffering from [vaginal discharge](symptom) and [swallowing problem](symptom)
+- For the last few days I have had [rectal pain](symptom) and [failure to thrive](symptom)
+- I don't feel well, I have [hand, finger ache or pain](symptom), [painful urination](symptom), [alcohol abuse](symptom), [leg itching](symptom)
+- My child is suffering from [penis inflammation or swelling](symptom), [confusion](symptom), and [painful rash](symptom)
+- My husband is suffering from [hand cut](symptom), [joint pain](symptom), [cyanosis](symptom), [hand cut](symptom)
+- I have [shoulder ache or pain](symptom) and [nausea](symptom)
+- My wife is suffering from [heel pain](symptom) and [kidney pain](symptom)
+- My symptoms are [chills](symptom), [eye floaters](symptom), and [maroon stools](symptom)
+- I have [fainting](symptom), [swollen gums](symptom), and [leg cut](symptom)
+- My wife is suffering from [head injury](symptom) and [hand redness](symptom)
+- My wife is suffering from [scrotal pain](symptom)
+- My wife is suffering from [painful urination](symptom)
+- My child is suffering from [fever of unknown origin](symptom), [speech problem](symptom), [bleeding in brain](symptom), [heart pulsations and palpitations](symptom)
+- I'm suffering from [hand redness](symptom), [poisoning](symptom), [pustule](symptom), [facial droop](symptom)
+- I don't feel well, I have [bleeding in brain](symptom), [dizziness](symptom), [foot pain](symptom), [fever in the returning traveler](symptom)
+- My daughter is suffering from [anxiety](symptom), [puncture wound](symptom), and [arm numbness](symptom)
+- My son is suffering from [nipple discharge](symptom), [elbow ache or pain](symptom), [inconsolable baby](symptom), [ankle pain](symptom)
+- I have [failure to thrive](symptom) and [arm itching](symptom)
+- I don't feel well, I have [dementia](symptom), [flatulence](symptom), [insect sting](symptom), [learning difficulties](symptom)
+- I have really bad [vaginal pain](symptom), [skin pain](symptom), [dry skin](symptom), [bleeding tendency](symptom)
+- My husband is suffering from [hemoptysis](symptom)
+- I have [traveler's diarrhea](symptom)
+- I have [shortness of breath](symptom)
+- For the last few days I have had [face numbness](symptom)
+- My child is suffering from [bloody diarrhea](symptom) and [confusion](symptom)
+- My symptoms are [pulling at ears](symptom), [incontinence](symptom), and [sweating](symptom)
+- My daughter is suffering from [leg redness](symptom), [vaginal pain](symptom), [alcohol abuse](symptom), [neck ache or pain](symptom)
+- I don't feel well, I have [stomach and abdominal pain](symptom), [leg cut](symptom), [upper leg pain](symptom), [hand redness](symptom)
+- I have really bad [shoulder stiffness or tightness](symptom)
+- My wife is suffering from [discharge from ear](symptom), [sleep disorders](symptom), and [itchy eyes](symptom)
+- My child is suffering from [unusual color or odor of urine](symptom), [hypothermia](symptom), [drooling](symptom), [nausea](symptom)
+- My husband is suffering from [hand numbness](symptom)
+- My daughter is suffering from [difficulty breathing](symptom), [incontinence](symptom), and [dark stools](symptom)
+- My daughter is suffering from [tongue swelling](symptom)
+
+## intent:ask_name
+- I am [Pratik](name)
+
+## intent:out_of_scope
+- What is the global optimum of a non-convex function
+- Who is [Donald Trump](name)?
+- Do you know anything about soccer
+
+## intent:handleinsult
+- go fuck yourself
+- so fucking dumb
+- you are a moron
+- you're a loser lmao
+- fuck rasa
+- fuck off
+- Fuck
+- You are shortsighted.
+- You lack intelligence.
+- you are a stupid bot
+- deal with my ass, you bitch
+- you are idiotic
+- fucking work
+- fuck u
+- Your intelligence is laughable.
+
+## intent:telljoke
+- make me laugh with a bad joke
+- Know any jokes?
+- Give me some comic relief.
+- Do you know any jokes?
+- tell me something funny, like a joke
+- Could you tell me a joke.
+- say a joke that's funny
+- say a funny joke
+
+## intent:tellquote
+- Will you tell me a quote.
+- Entertain me with a quote.
+- tell me a short quote
+- Could you tell me a quote.
+- say a quote that's funny
+- quotes are us
+- Give me a quote.
+
+## intent:ask_whoami
+- Can you tell me who am I?
+- can you tell me what my identity is?
+- How can I determine who I am?
+- what's my identity?
+- Okay who am I?
+- Can you tell me who I am?
+
+## intent:ask_languagesbot
+- what foreign languages are you fluent in?
+- how many languages do you know?
+- what languages you are well versed ?
+- do you speak any other languages?
+- How many languages do you have knowledge of?
+- Do you speak german?
+- Do you know any other languages?
+- What languages do you know?
+- In which languages are you fluent?
+- what else do you know besides English?
+
+## intent:ask_whatismyname
+- May i know my name?
+- Explain my name to me.
+- what's my name?
+- What would be the name on my tombstone?
+- Do I have a name?
+- What else do people call me?
+- I'd like to know my name
+- Do I have a name? What is it?
+
+## intent:smalltalk_agent_age
+- How long have you occupied the earth?
+- What was your age on your last birthday?
+- What is your count of years being alive so far?
+- tell me your age?
+- when were you born?
+- how old are you
+- can you tell me your age?
+- tell me your age number?
+- do you know how old you are?
+- What is your age?
+
+## intent:smalltalk_agent_annoying
+- you are annoying me so much
+- I find you annoying
+
+## intent:smalltalk_agent_answer_my_question
+- answer me
+- answer my question
+- just answer my question
+- can you answer a question for me
+
+## intent:smalltalk_agent_bad
+- you're not very good
+- you are so useless
+- you're terrible
+- you are very bad
+- you are so bad
+- you are not cool
+
+## intent:smalltalk_agent_be_clever
+- you should study better
+- you must learn
+
+## intent:smalltalk_agent_beautiful
+- you're cute
+- you are gorgeous
+- you are so pretty
+- you're looking good today
+- you look awesome
+- you are very attractive
+- you are pretty
+- you are so handsome
+- you are looking awesome
+- you look wonderful
+- you are too beautiful
+
+## intent:smalltalk_agent_birth_date
+- date of your birthday
+- what's your birthday
+
+## intent:smalltalk_agent_boring
+- you're so boring
+- you're really boring
+
+## intent:smalltalk_agent_boss
+- who is your boss
+- who is your master
+
+## intent:smalltalk_agent_busy
+- you're a busy person
+- are you working today
+- are you busy
+- you are busy
+
+## intent:smalltalk_agent_chatbot
+- are you just a bot
+- are you a robot
+
+## intent:smalltalk_agent_clever
+- you are a genius
+- how brilliant you are
+- you are so smart
+- you are clever
+- you're intelligent
+- clever
+- you are very intelligent
+
+## intent:smalltalk_agent_crazy
+- are you insane
+- you are insane
+- are you mad
+- you're nuts
+
+## intent:smalltalk_agent_fired
+- I'm firing you
+- now you're fired
+- I'm about to fire you
+
+## intent:smalltalk_agent_funny
+- you're really funny
+- that was funny
+- you make me laugh a lot
+
+## intent:smalltalk_agent_good
+- you're perfect
+- you are the nicest person in the world
+- you are so cool
+- you almost sound human
+- you are very useful
+- you make my day
+- you're great
+- you are really nice
+- you are a pro
+
+## intent:smalltalk_agent_hungry
+- you're so hungry
+- you're really hungry
+
+## intent:smalltalk_agent_marry_user
+- you are my wife
+- I want to marry you
+
+## intent:smalltalk_agent_my_friend
+- be my friend
+- would you be my friend
+- will you be my friend
+- can we be best friends
+- I want to have a friend like you
+- you are my only friend
+- I want you to be my friend
+- be my best friend
+
+## intent:smalltalk_agent_occupation
+- where is your office located
+- where do you work
+
+## intent:smalltalk_agent_origin
+- what is your country
+- your homeland is
+- where were you born
+
+## intent:smalltalk_agent_ready
+- are you ready today
+- were you ready
+
+## intent:smalltalk_agent_real
+- you are so real
+- are you a real person
+- are you real
+
+## intent:smalltalk_agent_residence
+- Where did you originate?
+- What citizenship do you lay claim to?
+- are you from around here?
+- what is your residence
+- What city are you from?
+- what country are you from?
+- where do you live?
+- where did you grow up?
+- What is your heritage?
+- your town
+- where's your home
+- What country are you from?
+
+## intent:smalltalk_agent_right
+- that's so true
+- TRUE
+- you're not wrong
+- you are correct
+- that is right
+
+## intent:smalltalk_agent_sure
+- are you sure now
+
+## intent:smalltalk_agent_talk_to_me
+- speak to me
+- talk to me
+- can you talk to me
+- are you talking to me
+
+## intent:smalltalk_agent_there
+- are you still here
+- you still there
+
+## intent:smalltalk_appraisal_bad
+- that's too bad
+- that's lame
+- pretty bad
+- bad very bad
+- that was terrible
+- it's not good
+- terrible
+- that is bad
+- that was not good
+- it is bad
+- that was lame
+
+## intent:smalltalk_appraisal_good
+- that's not bad
+- very well
+- super fantastic
+- really nice
+- sweet
+- that is nice
+- so sweet of you
+- that's much better
+- it's good
+- that's sweet of you
+- good
+- this is good
+- that's nice of you
+- glad to hear it
+- this is great
+- fantastic
+- splendid
+- good for you
+
+## intent:smalltalk_appraisal_no_problem
+- don't worry there's no problem
+- sure no problem
+
+## intent:smalltalk_appraisal_thank_you
+- well thank you
+- cheers
+- nice thank you
+- thanks love
+- thanks for your help
+- alright thanks
+- thank you again
+
+## intent:smalltalk_appraisal_welcome
+- you're welcome
+- that's my pleasure
+
+## intent:smalltalk_appraisal_well_done
+- way to go
+- well done
+
+## intent:smalltalk_confirmation_cancel
+- stop go back
+- cancel now
+- sorry cancel
+- ok, but that doesnt help me
+- nothing else?
+- ok i guess you can't help me
+- forget it nevermind
+- cancel everything
+- just forget it
+- cancel the whole thing
+- stop it
+- cancelled
+- just stop it
+- cancel this request
+- just forget
+- annul
+
+## intent:smalltalk_dialog_hold_on
+- don't rush
+- wait
+
+## intent:smalltalk_dialog_hug
+- hug
+- could you give me a hug
+- wanna hug
+
+## intent:smalltalk_dialog_i_do_not_care
+- I shouldn't care about this
+- I don't care at all
+
+## intent:smalltalk_dialog_sorry
+- really sorry
+- excuse me
+- I beg your pardon
+- forgive me
+- I am so sorry
+
+## intent:smalltalk_dialog_what_do_you_mean
+- what exactly do you mean
+
+## intent:smalltalk_dialog_wrong
+- that is incorrect
+- incorrect
+- you are wrong
+
+## intent:smalltalk_greetings_goodevening
+- hello good evening
+- evening
+
+## intent:smalltalk_greetings_goodmorning
+- good morning too
+- top of the morning to you
+- hi good morning
+
+## intent:smalltalk_greetings_goodnight
+- night
+- goodnight
+- thanks goodnight
+- have a good night
+
+## intent:smalltalk_greetings_how_are_you
+- how is your evening
+- how is your day going
+- Is it quite breezy outside?
+- how do you feel
+- how is your day being
+- tell me more about your founders
+- how are you today
+- how are things going
+- Do you feel good?
+- are you alright
+- how are you
+- please tell me who created you
+- hope you re having a pleasant evening
+- how is your life
+
+## intent:smalltalk_greetings_whatsup
+- whazzup
+- what is happening
+- what is on your mind
+- then what's up
+
+## intent:smalltalk_user_back
+- I came back
+- I'm here again
+
+## intent:smalltalk_user_bored
+- I'm bored
+- very boring
+
+## intent:smalltalk_user_busy
+- I don't have time for this
+- I'm overloaded
+
+## intent:smalltalk_user_does_not_want_to_talk
+- bad time for talking
+- let's stop talking for a minute
+
+## intent:smalltalk_user_excited
+- I am excited
+- I'm really excited
+
+## intent:smalltalk_user_going_to_bed
+- I'm a little tired and I want to go to bed
+- is it time for bed yet
+
+## intent:smalltalk_user_good
+- I'm great thanks
+- I am good
+
+## intent:smalltalk_user_has_birthday
+- today is my birthday
+- it's my birthday today
+
+## intent:smalltalk_user_here
+- I'm already here
+
+## intent:smalltalk_user_joking
+- I am joking
+- I'm just playing with you
+
+## intent:smalltalk_user_likes_agent
+- you are very special
+- I just like you
+- I like your smile
+- sorry I like you
+- you're very special
+- yes I like you
+- yes you are special
+- I kinda like you
+- I really like you
+- I'm starting to like you
+- I also like you
+- I really really like you
+- you know I like you
+- you are very special to me
+- thank you I like you too
+- but I like you just the way you are
+
+## intent:smalltalk_user_looks_like
+- what do I look like
+- what do you think I look like
+
+## intent:smalltalk_user_loves_agent
+- I think I love you
+- love you
+
+## intent:smalltalk_user_misses_agent
+- missing you
+- I miss you much
+
+## intent:smalltalk_user_needs_advice
+- do you have any advice for me
+- I need advice
+- give me some good advice
+- can you advise me
+- can you give me advice
+
+## intent:smalltalk_user_sleepy
+- I want to sleep
+
+## intent:smalltalk_user_testing_agent
+- testing
+- I am testing you
+
+## intent:smalltalk_user_tired
+- I've overworked
+- I'm worn out
+
+## intent:smalltalk_user_waits
+- how long do I have to wait
+
+## intent:smalltalk_user_wants_to_see_agent_again
+- I'll miss you
+- would be nice to see you again
+
+## intent:smalltalk_user_wants_to_talk
+- let's discuss something
+- I need to talk to you
+- I want to speak with you
+
+## intent:get_ipfs_url
+- [QmccqhJg5wm5kNjAP4k4HrYxoqaXUGNuotDUqfvYBx8jrR](file)
+- [QmdDbLyNKCwtBVFhEVQfdBTCnEWmWRJGnm93qa3kzBjVym](file)
+- [QmcniBv7UQ4gGPQQW2BwbD4ZZHzN3o3tPuNLZCbBchd1zh](file)
+
+## intent:get_records
+- Help me find medical file from [a year ago](time)
+- please I'm looking for records from [two week ago](time)
+- please Look for files from [two week ago](time)
+- Find medical record from [a day ago](time)
+- Fetch medical file from [22 hours ago](time)
+- please Help me find medical record from [two week ago](time)
+- please Get me record from [a month ago](time)
+- please Fetch record from [one week ago](time)
+- please I'm looking for medical file from [22 hours ago](time)
+- please Fetch medical record from [two week ago](time)
+- I'm looking for file from [one week ago](time)
+- please Could you please find record from [a day ago](time)
+- please file from [22 hours ago](time)
+- please Find records from [two years ago](time)
+- Could you please find medical record from [a year ago](time)
+- please Could you please find files from [an hour ago](time)
+- Look for files from [two week ago](time)
+- please Look for medical file from [two week ago](time)
+- please Fetch file from [one week ago](time)
+- please record from [a month ago](time)
+- Get me record from [22 hours ago](time)
+- please Fetch medical file from [an hour ago](time)
+- Help me find medical record from [a year ago](time)
+- Fetch record from [two months ago](time)
+- Get me records from [a week ago](time)
+- please Get me file from [a week ago](time)
+- file from [an hour ago](time)
+- please Help me find files from [two months ago](time)
+- Get me records from [a day ago](time)
+- Look for medical record from [an hour ago](time)
+- Look for records from [one week ago](time)
+- Get me record from [a year ago](time)
+- please Help me find file from [a week ago](time)
+- Help me find records from [two years ago](time)
+- please records from [a day ago](time)
+- please Get me file from [one week ago](time)
+- Get me files from [a day ago](time)
+- I'm looking for file from [a week ago](time)
+- please Could you please find medical record from [a year ago](time)
+- please file from [a day ago](time)
+
+## intent:get_transfer_records
+- Can you send [blood report](records) from [elvis](doctor)
+- i want to tranfer [ekg report](records) from [vedant@gmail.com](doctor)
+- Send [x ray report](records) from [pratik@gmail.com](doctor)
+- Will you transfer [vortex file 2](records) from [pratik](doctor)
+- Please transfer [sonography report](records) from [loius](doctor)
+- Please send [sonography report](records) from [vedant](doctor)
+- Please send [blood report](records) from [sherwyn](doctor)
+- Can you transfer [blood report](records) from [loius](doctor)
+- Will you transfer [vortex file 3](records) from [abdul](doctor)
+- Can you send [vortex file 2](records) from [abdul](doctor)
+- Please transfer [sonography report](records) from [pratik](doctor)
+- Transfer [vortex file 3](records) from [loius](doctor)
+- Can you transfer [x ray report](records) from [sherwyn](doctor)
+- Send [vortex file 2](records) from [elvis](doctor)
+- i want to tranfer [x ray report](records) from [elvis@gmail.com](doctor)
+- Please send [ekg report](records) from [elvis@gmail.com](doctor)
+- Can you transfer [vortex file 3](records) from [Pratik Chowdhury](doctor)
+- Please send [vortex file 2](records) from [mahendra](doctor)
+- Please transfer [vortex file 2](records) from [pratik@gmail.com](doctor)
+- i want to tranfer [vortex file 4](records) from [loius](doctor)
+- Please send [vortex file 2](records) from [sanjay](doctor)
+- Please transfer [vortex file 4](records) from [sanjay](doctor)
+- Will you transfer [vortex file 4](records) from [elvis](doctor)
+- i want to tranfer [x ray report](records) from [Pratik Chowdhury](doctor)
+- Will you transfer [sonography report](records) from [pratik@gmail.com](doctor)
+- Transfer [vortex file 4](records) from [pratik@gmail.com](doctor)
+- i want to tranfer [vortex file 4](records) from [elvis@gmail.com](doctor)
+- Please transfer [vortex file 3](records) from [sanjay](doctor)
+- Will you transfer [blood report](records) from [sanjay](doctor)
+- Transfer [vortex file 3](records) from [elvis](doctor)
+- Send [vortex file 2](records) from [sherwyn@gmail.com](doctor)
+- Will you transfer [vortex file 1](records) from [vedant](doctor)
+- Please transfer [vortex file 3](records) from [pratik](doctor)
+- i want to tranfer [vortex file 2](records) from [loius](doctor)
+- Please send [vortex file 2](records) from [vedant](doctor)
+- Transfer [vortex file 4](records) from [pratik](doctor)
+- Send [vortex file 3](records) from [sherwyn](doctor)
+- i want to tranfer [vortex file 4](records) from [sanjay](doctor)
+- Can you send [vortex file 4](records) from [pratik](doctor)
+- Will you transfer [sonography report](records) from [sanjay](doctor)
+
+## intent:get_filtered_records
+- can you fetch me [how healthy i was]{"entity": "query", "value": "weight"} from [a week ago](time)
+- fetch me [weight](query) from [two years ago](time)
+- show [weight](query) from [two years ago](time)
+- i want to see [height](query) from [two years ago](time)
+- i want to see [how tall i was]{"entity": "query", "value": "height"} from [a year ago](time)
+- can you fetch me [how healthy i was]{"entity": "query", "value": "weight"} from [2 weeks ago](time)
+- can you show me [age](query) from [a month ago](time)
+- i want to get [how tall i was]{"entity": "query", "value": "height"} from [a week ago](time)
+- fetch me [how healthy i was]{"entity": "query", "value": "weight"} from [a year ago](time)
+- show [how tall i was]{"entity": "query", "value": "height"}
+- i want to see [symptoms](query) from [48 hours](time)
+- fetch me [age](query) from [48 hours](time)
+- i want to see [how healthy i was]{"entity": "query", "value": "weight"} from [a year ago](time)
+- fetch me [diastolic]{"entity": "query", "value": "bp"} from [2 weeks ago](time)
+- can you show me [bp](query) from [48 hours](time)
+- fetch me [how healthy i was]{"entity": "query", "value": "weight"} from [22 hours ago](time)
+- fetch me [weight](query) from [a year ago](time)
+- can you fetch me [blood pressure]{"entity": "query", "value": "bp"} from [a day ago](time)
+- show [age](query) from [a week ago](time)
+- show [allergies]{"entity": "query", "value": "allergy"} from [two years ago](time)
+- i want to get [bp](query) from [22 hours ago](time)
+- fetch me [how tall i was]{"entity": "query", "value": "height"}
+- can you fetch me [systolic]{"entity": "query", "value": "bp"} from [two days ago](time)
+- fetch me [bp](query) from [two years ago](time)
+- show [weight](query)
+- i want to see [how tall i was]{"entity": "query", "value": "height"}
+- can you fetch me [symptoms](query) from [a month ago](time)
+- can you fetch me [bp](query) from [a month ago](time)
+- fetch me [allergies]{"entity": "query", "value": "allergy"} from [two years ago](time)
+- fetch me [bp](query) from [two days ago](time)
+- can you fetch me [height](query)
+- fetch me [bp](query) from [a month ago](time)
+- show [systolic]{"entity": "query", "value": "bp"} from [a year ago](time)
+- can you show me [height](query) from [2 weeks ago](time)
+- can you show me [systolic]{"entity": "query", "value": "bp"} from [a day ago](time)
+- fetch me [blood pressure]{"entity": "query", "value": "bp"} from [48 hours](time)
+- i want to see [weight](query)
+- i want to see [height](query) from [a week ago](time)
+- fetch me [blood pressure]{"entity": "query", "value": "bp"} from [two days ago](time)
+- show [symptoms](query) from [two years ago](time)
+- i want to see [weight](query) from [two days ago](time)
+- show [how tall i was]{"entity": "query", "value": "height"} from [48 hours](time)
+- i want to see [allergies]{"entity": "query", "value": "allergy"} from [a day ago](time)
+- can you fetch me [bp](query) from [2 weeks ago](time)
+- show [weight](query) from [a month ago](time)
+- show [height](query) from [two years ago](time)
+- can you show me [how tall i was]{"entity": "query", "value": "height"} from [a week ago](time)
+- can you fetch me [diastolic]{"entity": "query", "value": "bp"} from [2 weeks ago](time)
+- can you fetch me [height](query) from [a day ago](time)
+- i want to see [diastolic]{"entity": "query", "value": "bp"}
+- fetch me [symptoms](query) from [a day ago](time)
+- show [how healthy i was]{"entity": "query", "value": "weight"} from [two days ago](time)
+- fetch me [blood pressure]{"entity": "query", "value": "bp"} from [a day ago](time)
+- fetch me [height](query) from [22 hours ago](time)
+- i want to get [systolic]{"entity": "query", "value": "bp"} from [a day ago](time)
+- fetch me [symptoms](query) from [2 weeks ago](time)
+- i want to get [allergies]{"entity": "query", "value": "allergy"} from [a day ago](time)
+- can you fetch me [blood pressure]{"entity": "query", "value": "bp"} from [a year ago](time)
+- show [systolic]{"entity": "query", "value": "bp"} from [a month ago](time)
+- fetch me [bp](query)
+- can you fetch me [allergies]{"entity": "query", "value": "allergy"} from [a day ago](time)
+- i want to get [weight](query) from [a week ago](time)
+- show [how healthy i was]{"entity": "query", "value": "weight"} from [22 hours ago](time)
+- show [how tall i was]{"entity": "query", "value": "height"} from [a month ago](time)
+- show [symptoms](query) from [48 hours](time)
+- can you fetch me [allergies]{"entity": "query", "value": "allergy"}
+- i want to get [weight](query) from [two days ago](time)
+- i want to see [height](query) from [2 weeks ago](time)
+- show [height](query) from [a week ago](time)
+- can you fetch me [blood pressure]{"entity": "query", "value": "bp"} from [22 hours ago](time)
+- fetch me [diastolic]{"entity": "query", "value": "bp"} from [48 hours](time)
+- fetch me [age](query) from [a month ago](time)
+- can you show me [age](query)
+- i want to get [how healthy i was]{"entity": "query", "value": "weight"} from [two days ago](time)
+- i want to see [how tall i was]{"entity": "query", "value": "height"} from [a day ago](time)
+- fetch me [how tall i was]{"entity": "query", "value": "height"} from [22 hours ago](time)
+- i want to get [symptoms](query) from [a week ago](time)
+- fetch me [systolic]{"entity": "query", "value": "bp"} from [two days ago](time)
+- can you fetch me [how healthy i was]{"entity": "query", "value": "weight"}
+- show [age](query) from [22 hours ago](time)
+- i want to get [how tall i was]{"entity": "query", "value": "height"} from [two years ago](time)
+- can you show me [blood pressure]{"entity": "query", "value": "bp"} from [a month ago](time)
+- i want to see [allergies]{"entity": "query", "value": "allergy"}
+- show [bp](query) from [a month ago](time)
+- fetch me [blood pressure]{"entity": "query", "value": "bp"} from [2 weeks ago](time)
+- fetch me [weight](query)
+- fetch me [how healthy i was]{"entity": "query", "value": "weight"} from [two days ago](time)
+- can you show me [height](query)
+- i want to get [symptoms](query)
+- show [systolic]{"entity": "query", "value": "bp"}
+- i want to see [blood pressure]{"entity": "query", "value": "bp"}
+- can you show me [how tall i was]{"entity": "query", "value": "height"} from [two years ago](time)
+- can you fetch me [age](query) from [48 hours](time)
+- show [diastolic]{"entity": "query", "value": "bp"} from [22 hours ago](time)
+
+## intent:search_treat
+- treatment of [emphysema](disease)
+- how to treat [respiratory bronchiole-related interstitial lung disease](disease)
+- what is [lung metastasis](disease)?
+- when catching [a cold](disease), how to treat a
+- what disease is alveolar proteinosis?
+- how to cure lung metastases?
+- do you have [building sick syndrome](disease) treatment?
+- how to get [allergic pneumonia](disease)?
+- what disease is [a large amount of amniotic fluid inhalation](disease)?
+- what should i do if i have [pulmonary aspergillosis](disease)
+- have you given birth to [allergic pneumonia](disease) therapy?
+- what to do when [building sick syndrome](disease)
+- how to treat [whooping cough](disease) when acridine
+- how to cure lung-pleural amoebiasis?
+- how to treat [pulmonary candidiasis](disease)
+- what should i do when i have [goodpasture syndrome](disease)?
+- when infected with [benzene poisoning](disease)
+- what should i do when i have bullae?
+- what should i do with [radiation pneumonia](disease)?
+- is the treatment for [pulmonary candidiasis](disease)?
+- what is the disease of [pulmonary bullae](disease)?
+- what is [radiation pneumonia](disease)
+- [sars](disease)?
+- how to treat [alveolar protein deposition disease](disease)?
+- [lung cancer](disease)
+- how to treat [building sick syndrome](disease)?
+- infected with [sars](disease)
+- the treatment is good when you get the lung bullae
+- birth of [alveolar protein deposition disease](disease) when therapy
+- what is [alveolar protein deposition disease](disease) is good?
+- when infected with [alveolar protein deposition disease](disease), how to treat
+- how to treat [carbon disulfide poisoning](disease) acridine
+- is there a way to treat lung metastases?
+- how to treat when contracted with [benzene poisoning](disease)
+- [a large amount of amniotic fluid inhalation](disease) of z
+- what should i do when i get [pulmonary aspergillosis](disease)
+- what should i do when i have [allergic pneumonia](disease)
+- what is a [lung abscess](disease)?
+- infectious [septic shock](disease) how to do
+- how to treat when infected with [pneumonia](disease)
+- is it possible to treat [adult respiratory distress syndrome](disease)?
+- how to treat when infected with [lobar pneumonia](disease)
+- how to treat [bullae](disease) acridine
+- how to treat lung cryptococcosis
+- how to cure when [mercury poisoning](disease) is born
+- sheng lung [bullae](disease)? how to treat?
+- how to deal with [benzene poisoning](disease)
+- get the [carbon disulfide poisoning](disease), how to do
+- got [pulmonary hemorrhage-nephritis syndrome](disease)?
+- what should i do if i am poisoned by carbon disulfide
+- what should i do if i suffer from [lung abscess](disease)
+- [goodpasture syndrome](disease)
+- what is the disease of [pulmonary cryptococcosis](disease)?
+- what disease is the common cold?
+- what is the disease of lung-pleural amoebiasis acridine
+- get the [cadmium poisoning](disease) treatment method ah
+- therapy when giving birth to [anaphylactic shock](disease) acridine
+- what is pulmonary vesicles?
+- i have [a cold](disease), how to treat it
+- when infected with [septic shock](disease)
+- got a [foreign body in the respiratory tract](disease)?
+- when suffering from [goodpasture syndrome](disease)
+- the cure for [pneumococcal pneumonia](disease)
+- how to treat [benzene poisoning](disease)?
+- treatment when suffering from inhalation of large amounts of amniotic fluid acridine
+- what to do if i got the [building sick syndrome](disease)
+- the cure for [pneumonia](disease)
+- what is the disease of [alveolar proteinosis](disease)?
+- how to cure [lobar pneumonia](disease)
+- how to treat [adult respiratory distress syndrome](disease)?
+- what to do in [sars](disease)
+- how to treat when infected with alveolar proteinosis?
+- how to do [lung abscess](disease) ah
+- how to treat [carbon disulfide poisoning](disease)
+- infected with [pneumonia](disease) how to do
+- what to do when suffering from [emphysema](disease)
+- what to do when you have [lung cancer](disease)
+- how to deal with [septic shock](disease)
+- are you infected with [lung cancer](disease)?
+- how to treat [pneumonia](disease)
+- how to treat a lot of amniotic fluid inhalation
+- how to cure [lung cancer](disease)?
+- [whooping cough](disease)
+- what is [pulmonary aspergillosis](disease)
+- get on [septic shock](disease)
+- suffering from [pulmonary hemorrhage-nephritis syndrome](disease)?
+- how to treat with [carbon disulfide poisoning](disease)
+- what to do when getting [benzene poisoning](disease)
+- got [lobar pneumonia](disease) yezhi?
+- what should i do when i am infected with [pulmonary bullae](disease)?
+- how to deal with [pulmonary cryptococcosis](disease)
+- infected with [pulmonary cryptococcosis](disease) of yezhi
+- how to treat a [foreign body in the respiratory tract](disease)
+- how to treat when infected with [pulmonary edema](disease) acridine
+- what is pulmonary-pleural amebiasis?
+- [benzene poisoning](disease)
+- what is the disease of [pulmonary bullae](disease) acridine
+- what should i do when i get a [lung abscess](disease)?
+- what should i do if i contract [lobar pneumonia](disease)
+- the treatment method when the [pneumonia bacillus pneumonia](disease) is born
+- health [septic shock](disease) how to do
+- sheng alveolar protein deposition symptoms shi yezhi
+- how to treat [lung cancer](disease) acridine
+- how to treat [anaphylactic shock](disease)
+- how to treat [simple pulmonary eosinophilic infiltration disease](disease) acr
+- how to treat lung metastases acridine
+- what disease is [mercury poisoning](disease) acridine
+- how to get [pneumonia pseudotumor](disease)
+- therapy when suffering from [pulmonary cryptococcosis](disease) acr
+- how to treat [lung cancer](disease)
+- what is the therapy for lung bulla?
+- how to treat [cadmium poisoning](disease) acridine
+- [pneumonia pseudotumor](disease) when therapy
+- when the mercury is poisoned, how to treat it
+- treatment when suffering from [pulmonary edema](disease)
+- how to treat [lobar pneumonia](disease)?
+- how to treat [wheezing bronchitis](disease) acridine
+- what is the disease of lung metastases?
+- is it possible to treat [pulmonary actinomycosis](disease)?
+- how to treat when getting [benzene poisoning](disease)
+- how to treat [anaphylactic shock](disease)?
+- pulmonary alveolar protein deposition syndrome zhazhi
+- [pneumonia pseudotumor](disease) when how?
+- what should i do if i have [septic shock](disease)?
+- how to treat when suffering from [pulmonary hemorrhage-nephritis syndrome](disease)?
+- what should i do if i have big pulmonary vesicles?
+- what is the cure when suffering from [pulmonary bullae](disease)?
+- what is [simple pulmonary eosinophilic infiltration disease](disease)
+- what is the best way to treat lung bullae?
+- how to deal with alveolar proteinosis?
+- how to deal with [sars](disease) infection acridine
+- [wheezing bronchitis](disease)
+- how to treat when you have [pneumonia](disease)
+- what should i do if i contract [pneumococcal pneumonia](disease)
+- how to get [lung cancer](disease)
+- treatment method [alveolar protein deposition disease](disease) is good
+- how to treat [septic shock](disease) when you are born with [septic shock](disease)
+- got [pneumococcal pneumonia](disease)
+- infection with [lung cancer](disease) treatment method
+- how to treat [wheezing bronchitis](disease) is good
+- how to treat [alveolar proteinosis](disease)?
+- what about [sars](disease)?
+- what is [building sick syndrome](disease)
+- what is [pulmonary edema](disease)
+- what should i do when i get [cadmium poisoning](disease)?
+- is [goodpasture syndrome](disease) born?
+- what is [pulmonary cryptococcosis](disease)
+- get [pneumonia](disease)
+- how to treat [septic shock](disease) well?
+- suffering from [sars](disease), how to do acridine
+- how to treat [a cold](disease)?
+- did you get [carbon disulfide poisoning](disease)?
+- dyeing [bullae](disease) treatment
+- what should i do if i contract [pneumonia bacillus pneumonia](disease)
+- what is [septic shock](disease) a
+- how to treat when i get [lobar pneumonia](disease)?
+- what is [a large amount of amniotic fluid inhalation](disease)
+- what to do when infected with [lung abscess](disease)?
+- how to cure [carbon disulfide poisoning](disease)?
+- [pulmonary edema](disease) treatment method
+- what to do when suffering from [pneumococcal pneumonia](disease)
+- how to treat [emphysema](disease)
+- how to treat [lung cancer](disease)?
+- what should i do if i am infected with [alveolar proteinosis](disease)?
+- get the [lung-pleural amebiasis](disease) treatment
+- how to treat [emphysema](disease)?
+- how to deal with foreign bodies in the respiratory tract
+- how to treat when a [lung metastasis](disease) is born
+- [alveolar proteinosis](disease) therapy?
+- what to do when infected with lung bullae
+- it’s good when you catch [a cold](disease)
+- how to treat pulmonary [bullae](disease) acridine
+- how to treat when suffering from [pulmonary embolism](disease)
+- get [pulmonary hemorrhage-nephritis syndrome](disease) of the treatment
+- give birth to [pulmonary hemorrhage-nephritis syndrome](disease) when how to do acridine
+- what is [pulmonary aspergillosis](disease)?
+- how to treat when i have [pulmonary edema](disease)
+- get the lung bullae's yezhi ah
+- treatment when suffering from a [foreign body in the respiratory tract](disease)
+- can lung-pleural amoebiasis therapy?
+- how to cure a [foreign body in the respiratory tract](disease)?
+- how to treat when infected with [emphysema](disease)?
+- how to treat [alveolar proteinosis](disease) acridine
+- get [pulmonary cryptococcosis](disease) acridine
+- what happened when you got [mercury poisoning](disease)
+- infected with [benzene poisoning](disease) of yezhiye
+- what should i do when i have [radiation pneumonia](disease)?
+- how to cure when infected with [mercury poisoning](disease)
+- how to treat [a large amount of amniotic fluid inhalation](disease)
+- treatment of [pneumococcal pneumonia](disease)
+- what should i do when i have [adult respiratory distress syndrome](disease)?
+- health large leaf pneumonia
+- how to do [pulmonary hemorrhage-nephritis syndrome](disease)
+- what about [lung abscess](disease)
+- how to cure [benzene poisoning](disease)
+- how to do with [septic shock](disease) acridine
+- what is the good of lung bullae
+- what should i do if i am infected with [carbon disulfide poisoning](disease)?
+- what should i do if i have an [adult respiratory distress syndrome](disease)?
+- infected with [pulmonary actinomycosis](disease)
+- how to cure [alveolar proteinosis](disease)?
+- suffering from [alveolar protein deposition disease](disease) when yezhi
+- [respiratory bronchiole-related interstitial lung disease](disease)
+- what to do when you get [a cold](disease) acridine
+- how to treat infected [lung abscess](disease) ah
+- how to treat [a large amount of amniotic fluid inhalation](disease) acridine
+- what to do when suffering from building sickness syndrome
+- what disease is [pneumococcal pneumonia](disease)?
+- how to cure a [lung abscess](disease)?
+- what to do when [benzene poisoning](disease)?
+- therapy for [adult respiratory distress syndrome](disease)
+- how to cure simple pulmonary eosinophilic infiltration?
+- when suffering from [sars](disease), how to treat
+- what is simple pulmonary eosinophil infiltration disease?
+- [benzene poisoning](disease) when yezhi
+- how to cure when [carbon disulfide poisoning](disease) is born
+- how to deal with [cadmium poisoning](disease) acridine
+- what kind of disease is [pulmonary candidiasis](disease)?
+- what should i do when i get [benzene poisoning](disease)?
+- is born with pneumonia bacteria pneumonia?
+- what is [septic shock](disease) good?
+- treatment when a large amount of amniotic fluid is inhaled
+- what is the disease of [carbon disulfide poisoning](disease)?
+- how to treat [goodpasture syndrome](disease)
+- how to treat lung aspergillosis
+- what is the disease of [pulmonary hemorrhage-nephritis syndrome](disease) acridine
+- zhezhi [pulmonary embolism](disease)
+- how to treat lung hemorrhage-nephritis syndrome
+- when suffering from [lung abscess](disease), how to treat a
+- what is the [foreign body in the respiratory tract](disease) acridine
+- how to treat when catching [a cold](disease)?
+- suffering from [septic shock](disease) zhizhi acridine
+- how to treat [pulmonary candidiasis](disease)?
+- how to treat when having [pulmonary hemorrhage-nephritis syndrome](disease)
+- infected [lung abscess](disease) therapy
+- i gave birth to a large pulmonary vesicle
+- get on [pneumonia bacillus pneumonia](disease) yezhi
+- what is the disease of lung-pleural amoebiasis?
+- respiratory bronchioles-related interstitial lung disease
+- how to treat when [carbon disulfide poisoning](disease)
+- how to cure lung cryptococcosis?
+- what should i do when i have a [lung abscess](disease)
+- what about [pneumococcal pneumonia](disease)
+- what is [lung cancer](disease)?
+- how to treat [pulmonary aspergillosis](disease)?
+- what is [benzene poisoning](disease)?
+- what should i do if i suffer from [sars](disease)?
+- what should i do when i have [septic shock](disease)?
+- how to treat when having [septic shock](disease)?
+- the treatment of suffering from [wheezing bronchitis](disease)
+- how to treat [whooping cough](disease)?
+- birth [allergic pneumonia](disease) therapy
+- how to do with lung metastases acridine
+- [pulmonary aspergillosis](disease)
+- born pneumonia bacteria pneumonia therapy
+- therapy for [cadmium poisoning](disease)
+- suffering from pulmonary metastases of z
+- [alveolar proteinosis](disease)
+- what to do when infected with [alveolar proteinosis](disease)
+- how to treat when [lung abscess](disease) is born
+- what to do when suffering from lung metastases
+- what is [cadmium poisoning](disease)
+- is born with [bullae](disease)? how to cure it
+- what is [adult respiratory distress syndrome](disease)?
+- what should i do if i am infected with [pulmonary edema](disease)
+- is born with [pneumococcal pneumonia](disease)?
+- what is [pulmonary cryptococcosis](disease)?
+- how to do with [pneumonia pseudotumor](disease)
+- what is the disease of respiratory bronchioles-related interstitial lung disease?
+- what is the treatment of [emphysema](disease)
+- what disease is [emphysema](disease)?
+- how to treat [alveolar proteinosis](disease)
+
+## intent:search_symptom
+- what are the symptoms when i get [benzene poisoning](disease)?
+- what is the manifestation when infected with lung metastases?
+- is suffering from lung metastases with good symptoms?
+- what is the performance when getting [pneumonia bacillus pneumonia](disease)
+- sheng lung cryptococcosis symptoms
+- what are the manifestations of [adult respiratory distress syndrome](disease)?
+- do you get [benzene poisoning](disease)?
+- health [allergic pneumonia](disease) performance
+- the symptom of [cadmium poisoning](disease)
+- symptoms when you get [radiation pneumonia](disease) acridine
+- no signs of [allergic pneumonia](disease)
+- what will happen if you get [lung cancer](disease)
+- the performance of giving birth to [lobar pneumonia](disease) acridine
+- [anaphylactic shock](disease) performance
+- what is the phenomenon of catching [a cold](disease)?
+- suffering from a lot of amniotic fluid aspiration syndrome
+- the signs of [anaphylactic shock](disease)
+- do you have symptoms of [radiation pneumonia](disease)?
+- is there a phenomenon of [sars](disease)?
+- is the phenomenon of [benzene poisoning](disease) good?
+- signs of infection with [alveolar proteinosis](disease) acr
+- will there be any signs of [alveolar proteinosis](disease)?
+- the performance of [whooping cough](disease) acridine
+- signs of infection with [pulmonary embolism](disease)
+- the manifestation of infection with [anaphylactic shock](disease) ah
+- get on wheezing-like bronchitis phenomenon ah
+- will it be symptomatic when i have [pulmonary edema](disease)?
+- what happens when you get respiratory bronchioles-related interstitial lung disease
+- will you behave when you have [pneumonia](disease)?
+- symptoms when contracted with [pulmonary candidiasis](disease)
+- there will be no symptoms of [carbon disulfide poisoning](disease) acridine
+- symptoms will occur when you are born with [carbon disulfide poisoning](disease) acridine
+- what are the signs of [emphysema](disease)?
+- [pulmonary embolism](disease) performance
+- will it be a sign of [adult respiratory distress syndrome](disease)?
+- [pulmonary edema](disease) phenomenon ah
+- what are the symptoms of [lobar pneumonia](disease)?
+- what are the symptoms of [pulmonary candidiasis](disease)?
+- symptoms of alveolar protein deposits acridine
+- what is the sign of [lung abscess](disease) acridine
+- there is no sign of [mercury poisoning](disease).
+- phenomenon of interstitial lung disease associated with respiratory bronchioles
+- [sars](disease) characterization
+- there will be signs of [pulmonary aspergillosis](disease)
+- do you get [pulmonary actinomycosis](disease)?
+- the performance of [pulmonary edema](disease) a
+- [pulmonary embolism](disease) symptoms acridine
+- what happens when i have a [pneumonia pseudotumor](disease)?
+- is there a manifestation of [pulmonary edema](disease)?
+- no symptoms of [lung cancer](disease)
+- infectious [septic shock](disease) has symptoms?
+- [pneumonia bacillus pneumonia](disease) syndrome
+- symptoms of [whooping cough](disease) ah
+- what is the phenomenon of human respiratory distress syndrome?
+- phenomenon of contracting [lung cancer](disease) ah
+- will there be signs when you have [a cold](disease)?
+- there is a phenomenon when you get lung metastases
+- what's the phenomenon of having lung bullae?
+- what is the phenomenon of [cadmium poisoning](disease)?
+- suffering from [pneumococcal pneumonia](disease) will show a
+- what will happen when building sickness syndrome?
+- phenomenon of [radiation pneumonia](disease) acridine
+- [sars](disease) is not a phenomenon
+- what are the symptoms of having simple pulmonary eosinophilic infiltration?
+- what's the syndrome of building sickness syndrome?
+- symptoms of [pulmonary edema](disease)
+- got [septic shock](disease) syndrome okay
+- what are the signs of lung bullae?
+- nothing behaves when infected with [carbon disulfide poisoning](disease) ah
+- [pulmonary actinomycosis](disease) symptoms
+- there will be no symptoms if you have a [lung abscess](disease).
+- when you have [lobar pneumonia](disease), you will symptom a
+- what is the characterization of [pulmonary aspergillosis](disease)?
+- suffering from [pulmonary aspergillosis](disease) phenomenon ah
+- what is the performance of lung metastases?
+- will there be any phenomenon when i get a [bullae](disease)?
+- does it happen when you get [pulmonary actinomycosis](disease)?
+- [pulmonary candidiasis](disease) has a phenomenon
+- what is the phenomenon of [pulmonary cryptococcosis](disease)?
+- get the phenomenon of interstitial lung disease related to respiratory bronchioles
+- what is the manifestation of [pneumonia bacillus pneumonia](disease)?
+- what is the performance of [sars](disease)?
+- the manifestation of infection with [carbon disulfide poisoning](disease) acridine
+- what is the performance of [adult respiratory distress syndrome](disease)?
+- got the symptoms of lung metastases acridine
+- infected with [septic shock](disease) symptoms
+- [pneumonia pseudotumor](disease) will not symptom well
+- what are the signs of alveolar proteinosis?
+- is there a wheezing-like bronchitis phenomenon?
+- what is the phenomenon of [alveolar proteinosis](disease)?
+- signs of [pulmonary candidiasis](disease)
+- [emphysema](disease) symptoms
+- the symptoms of suffering from [a large amount of amniotic fluid inhalation](disease) are good
+- [benzene poisoning](disease) symptoms
+- there are signs when you have a [foreign body in the respiratory tract](disease)
+- are you infected with [sars](disease)?
+- a [foreign body in the respiratory tract](disease) has performance
+- what is the phenomenon of [pneumonia](disease)
+- got the performance of [alveolar proteinosis](disease)?
+- it’s good to have [a cold](disease).
+- what is the sign of [whooping cough](disease)?
+- infected with [alveolar proteinosis](disease), will the symptoms be?
+- symptoms when giving birth to [lung cancer](disease)
+- [pulmonary candidiasis](disease) will not have symptoms
+- what is the phenomenon of having [septic shock](disease)?
+- will there be any signs when you get a [foreign body in the respiratory tract](disease)?
+- when you are infected with [pneumococcal pneumonia](disease)
+- what are the symptoms of having [a large amount of amniotic fluid inhalation](disease)?
+- symptoms when you get [goodpasture syndrome](disease)
+- [pulmonary hemorrhage-nephritis syndrome](disease) will have symptoms
+- do you have [allergic pneumonia](disease)?
+- you have symptoms when you are born with [mercury poisoning](disease)
+- when you got a [bullae](disease), you got the sign
+- can get the performance of simple pulmonary eosinophilic infiltration
+- suffering from [respiratory bronchiole-related interstitial lung disease](disease) syndrome
+- there are signs when you have [lung cancer](disease) acridine
+- [allergic pneumonia](disease) will show it
+- what is the phenomenon of [lung-pleural amebiasis](disease)?
+- what is the phenomenon when [lung abscess](disease) is born?
+- got the performance of alveolar proteinosis?
+- symptoms when infected with [sars](disease)
+- the symptoms of interstitial lung disease associated with respiratory bronchioles
+- will there be performance when i have [alveolar proteinosis](disease)?
+- what are the signs of [pneumonia pseudotumor](disease)?
+- the symptoms of [mercury poisoning](disease) are good
+- got [pulmonary hemorrhage-nephritis syndrome](disease), will there be any performance?
+- symptoms when suffering from [septic shock](disease)
+- phenomenon of infection with [building sick syndrome](disease)
+- behave when you catch [a cold](disease)
+- what happens when you are infected with lung-pleural amoebiasis?
+- there is a phenomenon when you have [emphysema](disease)
+- what is the symptom of [adult respiratory distress syndrome](disease)?
+- [pulmonary aspergillosis](disease) is a good sign
+- birth of pulmonary bulla syndrome acridine
+- the performance of [pneumonia pseudotumor](disease)
+- what is the manifestation of lung actinomycosis?
+- what are the symptoms when you have [a cold](disease)?
+- is it good to be able to characterize [respiratory bronchiole-related interstitial lung disease](disease)?
+- what happens when i have lung metastases?
+- generate human respiratory distress syndrome manifestation ah
+- [respiratory bronchiole-related interstitial lung disease](disease) characterization
+- what are the manifestations of suffering from [bullae](disease)?
+- there will be no symptoms if you have a [lung abscess](disease)
+- what are the signs of [septic shock](disease)?
+- it won’t show up when you get [bullae](disease)
+- what symptoms will be good if you have [emphysema](disease)?
+- alveolar proteinosis will be characterized when
+- the performance of [pneumonia pseudotumor](disease) acridine
+- the manifestation of [radiation pneumonia](disease)
+- what is the sign of having a [bullae](disease)?
+- infected with [emphysema](disease)?
+- what are the symptoms when you are born with [carbon disulfide poisoning](disease)?
+- what are the symptoms when you have a [building sick syndrome](disease)?
+- giving birth to lung-pleural amoebiasis?
+- there will be no symptoms if you are infected with [alveolar proteinosis](disease)
+- obtained [lung-pleural amebiasis](disease)
+- got the characterization of [radiation pneumonia](disease)
+- what is the performance when suffering from [goodpasture syndrome](disease)?
+- what are the symptoms of [adult respiratory distress syndrome](disease) acridine
+- what are the signs of [a large amount of amniotic fluid inhalation](disease)?
+- phenomenon of alveolar proteinosis
+- can you get [lung cancer](disease)?
+- there will be no signs when you are born with [lobar pneumonia](disease)
+- what is the manifestation of [goodpasture syndrome](disease)?
+- what is the phenomenon when suffering from [radiation pneumonia](disease)
+- is it possible to show [pulmonary actinomycosis](disease)?
+- give birth to the symptoms of [carbon disulfide poisoning](disease)
+- phenomenon of growing [lobar pneumonia](disease)
+- there are signs when infected with [pulmonary actinomycosis](disease)
+- [pulmonary hemorrhage-nephritis syndrome](disease) will have symptoms?
+- is it good for [sars](disease)?
+- [pneumonia pseudotumor](disease) characterization
+- what are the symptoms of [pneumonia pseudotumor](disease) infection?
+- phenomenon of [pulmonary cryptococcosis](disease)
+- i got the sign of [radiation pneumonia](disease).
+- symptoms when [pulmonary embolism](disease) is born
+- there will be nothing when contracting [anaphylactic shock](disease).
+- [building sick syndrome](disease) symptom ah
+- [pulmonary edema](disease) infected with symptom?
+- do you have [cadmium poisoning](disease) and behave well?
+- what are the signs of [lobar pneumonia](disease)?
+- does [anaphylactic shock](disease) perform well?
+- what are the symptoms of [radiation pneumonia](disease)?
+- is born with [pulmonary candidiasis](disease) symptoms?
+- have symptoms of [lung abscess](disease)?
+- signs of suffering from [emphysema](disease) ah
+- is there any symptom of having [lung cancer](disease)?
+- what are the symptoms when you get [septic shock](disease)?
+- symptoms of getting a lot of amniotic fluid inhalation
+- there will be no symptoms when you have [cadmium poisoning](disease)
+- the performance of [anaphylactic shock](disease) ah
+- what is the manifestation of [pulmonary actinomycosis](disease)?
+- [allergic pneumonia](disease) is not a sign acridine
+- will there be any symptoms of [allergic pneumonia](disease)?
+- there will be no signs of lung metastases ah
+- will infection with simple pulmonary eosinophilic infiltration syndrome behave well?
+- what are the signs of [alveolar proteinosis](disease)?
+- sheng lung hemorrhage-nephritis syndrome symptom?
+- are you infected with [pneumonia](disease)?
+- [pneumonia pseudotumor](disease) will not show acridine
+- signs of having a [lung abscess](disease) acridine
+- what syndrome when suffering from [pneumonia pseudotumor](disease) acridine
+- infection with [cadmium poisoning](disease) syndrome acridine
+- will there be performance when you have [sars](disease)?
+- there will be phenomena if you have [lung cancer](disease)
+- there is a phenomenon of [lung cancer](disease) acridine
+- signs of simple pulmonary eosinophilic infiltration
+- get [pneumococcal pneumonia](disease) syndrome acridine
+- what are the symptoms of [pneumococcal pneumonia](disease)
+- lung-pleura amoebic disease waiting good?
+- what is the phenomenon of [benzene poisoning](disease)?
+- got the pulmonary vesicles performance ah
+- what are the signs of infection with lung metastases?
+- what is the manifestation of [pneumonia](disease)
+- [pneumonia pseudotumor](disease) will show it
+- will there be any manifestations of [wheezing bronchitis](disease)?
+- suffering from [respiratory bronchiole-related interstitial lung disease](disease) a
+- a [bullae](disease) will not be good for symptoms
+- what are the symptoms of [a cold](disease)?
+- is infected with [whooping cough](disease) syndrome?
+- symptoms when you have a [foreign body in the respiratory tract](disease)
+- get on alveolar protein deposit syndrome
+- what are the manifestations of infection with [pulmonary aspergillosis](disease)?
+- what are the symptoms when i get [pulmonary candidiasis](disease)?
+- phenomenon of getting a lot of amniotic fluid inhalation
+- will it happen when i am infected with [mercury poisoning](disease)?
+- can it be performed when carbon disulfide is poisoned?
+- what are the symptoms when suffering from [pulmonary bullae](disease)?
+- it’s not good when you have [alveolar proteinosis](disease)
+- do you have any symptoms when you have [adult respiratory distress syndrome](disease)?
+- phenomenon of [benzene poisoning](disease)
+- is born with [a cold](disease) phenomenon?
+- infection with [pulmonary bullae](disease)
+- what are the symptoms of [bullae](disease)?
+- what are the symptoms of [pulmonary aspergillosis](disease)?
+- [pulmonary cryptococcosis](disease) is good for performance
+- [pneumonia bacillus pneumonia](disease) sign
+- what symptom of getting [carbon disulfide poisoning](disease) acridine
+- will there be any signs when contracted with [building sick syndrome](disease)?
+- [wheezing bronchitis](disease) will be characterized well
+- what are the manifestations of building sickness syndrome?
+- giving birth to [lung-pleural amebiasis](disease) symptoms ah
+- symptoms of [lung cancer](disease)?
+- suffering from symptoms of alveolar proteinosis ah
+- what is good when i get [pulmonary actinomycosis](disease)?
+- there will be manifestations of infection with [radiation pneumonia](disease)
+- it’s good to have [pulmonary edema](disease)
+- it’s good to get [adult respiratory distress syndrome](disease)
+- sheng lung bulla performance acridine
+- phenomenon of [pneumonia bacillus pneumonia](disease)
+- [cadmium poisoning](disease) won't show anything acridine
+- can you have [a cold](disease)?
+- the symptom of giving birth to [anaphylactic shock](disease)
+- characterization of [carbon disulfide poisoning](disease)
+- the signs of [pulmonary candidiasis](disease)
+- the symptoms of [anaphylactic shock](disease) a
+- what is the performance of [alveolar protein deposition disease](disease)
+- there will be no performance when [sars](disease) is born
+- what syndrome is suffering from [alveolar proteinosis](disease)?
+- it’s good to have [septic shock](disease)
+- it’s a sign of [sars](disease).
+- what is the phenomenon of [radiation pneumonia](disease)
+- symptoms of lung metastases
+- there will be no signs when you have [pulmonary aspergillosis](disease)
+- a sign of [lobar pneumonia](disease)
+- symptoms when lung metastases
+- infected lung-pleural amoebiasis sign acridine
+- infected with [septic shock](disease) will not sign
+- what is the phenomenon of [allergic pneumonia](disease)
+
+## intent:search_cause
+- why is it good to get [pulmonary embolism](disease)?
+- will cause [pneumonia pseudotumor](disease)
+- how is [anaphylactic shock](disease)?
+- how can [benzene poisoning](disease) ah
+- will cause bullous lungs?
+- why [anaphylactic shock](disease)
+- why did you get [carbon disulfide poisoning](disease)?
+- i was infected with [pulmonary actinomycosis](disease)
+- infection with [a large amount of amniotic fluid inhalation](disease) reasons
+- why pneumonia bacteria pneumonia
+- why do you get [radiation pneumonia](disease)
+- will cause infection with [pulmonary candidiasis](disease)
+- what causes [pulmonary edema](disease)?
+- why did you get [pulmonary hemorrhage-nephritis syndrome](disease) a
+- the cause of the birth of large-leaf pneumonia acridine
+- how to get [a cold](disease)?
+- why have respiratory bronchioles related interstitial lung disease?
+- will cause [carbon disulfide poisoning](disease)
+- why get on [alveolar protein deposition disease](disease)
+- why is [sars](disease)?
+- will cause [pulmonary candidiasis](disease)?
+- how can i get [alveolar proteinosis](disease)?
+- how to get [allergic pneumonia](disease) acridine
+- will cause large-leaf pneumonia?
+- causes of infection with [adult respiratory distress syndrome](disease)
+- why do you get [emphysema](disease)?
+- can cause [pulmonary edema](disease)?
+- the cause of infection with [radiation pneumonia](disease)
+- [respiratory bronchiole-related interstitial lung disease](disease)?
+- how to give birth to big pulmonary vesicles acridine
+- will cause a [pulmonary embolism](disease)
+- the reason for having [a cold](disease) acridine
+- causes of [emphysema](disease)
+- how can you give birth to [carbon disulfide poisoning](disease)?
+- will cause building sickness syndrome
+- how can lung metastases?
+- the cause of [lung abscess](disease) a
+- how will get [alveolar protein deposition disease](disease)
+- why do you have alveolar protein deposits?
+- the cause of alveolar proteinosis?
+- the cause of [pneumonia pseudotumor](disease)
+- how can i get [lung-pleural amebiasis](disease)
+- will cause lung metastases acridine
+- why suffer from interstitial lung disease related to respiratory bronchioles?
+- why is [goodpasture syndrome](disease) good?
+- is the cause of lung metastases?
+- how can i get a [foreign body in the respiratory tract](disease)
+- why did you get a large leaf pneumonia acridine
+- how to get [pneumonia pseudotumor](disease)?
+- how can i get [adult respiratory distress syndrome](disease) acridine
+- how can i have [pulmonary edema](disease)?
+- the cause of [radiation pneumonia](disease)
+- why is the generation of human respiratory distress syndrome ah
+- why suffer from [goodpasture syndrome](disease) acridine
+- why got [pneumonia bacillus pneumonia](disease)
+- will cause [radiation pneumonia](disease)
+- how can i get the [building sick syndrome](disease)?
+- why are you suffering from [pneumonia](disease)?
+- how can i be born with [benzene poisoning](disease)?
+- why did you give birth to simple pulmonary eosinophilic infiltration?
+- the cause of catching [a cold](disease)
+- why did i get a [lung abscess](disease)?
+- how to give birth to [pulmonary candidiasis](disease) ah
+- why get [cadmium poisoning](disease)
+- what is the cause of [a cold](disease)?
+- why are you infected with [respiratory bronchiole-related interstitial lung disease](disease)?
+- causes of [pulmonary candidiasis](disease) ah
+- will cause [pulmonary edema](disease)?
+- why was born with [benzene poisoning](disease)
+- how to get on [pneumonia](disease) acridine
+- what are the reasons for [anaphylactic shock](disease)?
+- get on the cause of [benzene poisoning](disease) acridine
+- get the cause of interstitial lung disease related to respiratory bronchioles
+- will cause [whooping cough](disease) ah
+- how to give birth to alveolar protein deposition disease
+- the cause of the building sickness syndrome
+- causes of [pulmonary embolism](disease)
+- will cause alveolar protein deposits acridine
+- is the cause of infection with [alveolar proteinosis](disease) good?
+- [lung abscess](disease) reasons
+- why did you give birth to [whooping cough](disease)?
+- why did you get [anaphylactic shock](disease)?
+- how can [pulmonary cryptococcosis](disease) occur?
+- how can [emphysema](disease) occur
+- will cause [pulmonary aspergillosis](disease) acridine
+- is the cause of human respiratory distress syndrome?
+- why do you get [allergic pneumonia](disease)
+- why is there a big leaf pneumonia?
+- why got [pneumococcal pneumonia](disease)
+- how can [anaphylactic shock](disease) occur?
+- [pulmonary actinomycosis](disease) cause
+- why suffer from [allergic pneumonia](disease)
+- why did you get a [foreign body in the respiratory tract](disease)
+- will cause [lung-pleural amebiasis](disease)
+- get on the cause of [adult respiratory distress syndrome](disease)
+- how can i be infected with [benzene poisoning](disease)?
+- causes of [bullae](disease)
+- how can [adult respiratory distress syndrome](disease)?
+- why is [emphysema](disease) good?
+- reasons to get [lung cancer](disease)
+- why did you give birth to [pulmonary cryptococcosis](disease)?
+- will cause [allergic pneumonia](disease) acridine
+- infection with [pulmonary hemorrhage-nephritis syndrome](disease) cause
+- how can i get [wheezing bronchitis](disease)?
+- how to get infected with [adult respiratory distress syndrome](disease)
+- will cause [goodpasture syndrome](disease)
+- the cause of simple pulmonary eosinophilic infiltration is good
+- the cause of [a cold](disease)
+- why suffer from [cadmium poisoning](disease)
+- why did you have [pulmonary hemorrhage-nephritis syndrome](disease) ah
+- how to get [pulmonary edema](disease)?
+- why is [pulmonary embolism](disease)?
+- will cause [goodpasture syndrome](disease) acridine
+- how to have a [cadmium poisoning](disease) acridine
+- why do i get a [foreign body in the respiratory tract](disease) acridine
+- what is the cause of lung-pleural amoebiasis?
+- causes of [septic shock](disease) acridine
+- how to get bullous lungs?
+- how can [lung abscess](disease)?
+- how to get the lung bullae?
+- will cause [alveolar protein deposition disease](disease) is good
+- why are you infected with [sars](disease)?
+- why get [pulmonary aspergillosis](disease)?
+- how can you suffer from [whooping cough](disease)
+- why did you get simple pulmonary eosinophil infiltration disease?
+- how can i contract [radiation pneumonia](disease)?
+- get alveolar protein deposited disease cause a
+- how can i get [benzene poisoning](disease)?
+- how to get [pulmonary candidiasis](disease) acridine
+- will cause lung metastases
+- the cause of [goodpasture syndrome](disease)
+- why do you get [radiation pneumonia](disease)?
+- what is the cause of [pneumonia pseudotumor](disease)?
+- why suffer from [pulmonary bullae](disease)?
+- how to get big leaf pneumonia
+- how would produce [carbon disulfide poisoning](disease)
+- will cause to get on [mercury poisoning](disease) acridine
+- how can i get caught with [a cold](disease)?
+- how can i contract alveolar protein deposition?
+- how to get infected with [septic shock](disease)
+- the causes of [pulmonary cryptococcosis](disease)
+- will cause pulmonary vesicles
+- what is the reason for having a [lung abscess](disease)?
+- causes of suffering from [pulmonary bullae](disease)
+- causes of [wheezing bronchitis](disease) a
+- will cause [pulmonary hemorrhage-nephritis syndrome](disease)?
+- [cadmium poisoning](disease) cause
+- how can i give birth to a lot of amniotic fluid inhalation?
+- is the cause of infectious shock?
+- how to get [septic shock](disease)
+- health [whooping cough](disease) causes ah
+- do you have a lot of amniotic fluid inhalation?
+- why got [building sick syndrome](disease) ah
+- is the cause of [allergic pneumonia](disease) good?
+- how to get [pulmonary aspergillosis](disease) acridine
+- are you infected with [allergic pneumonia](disease)?
+- why is [whooping cough](disease) good?
+- what causes the [adult respiratory distress syndrome](disease)?
+- why did you get infected with alveolar protein deposits?
+- the reason for [anaphylactic shock](disease)
+- how can i get [pulmonary embolism](disease)?
+- why did you get [wheezing bronchitis](disease)?
+- why suffer from [goodpasture syndrome](disease)
+- [pulmonary hemorrhage-nephritis syndrome](disease) cause?
+- how can i get [pulmonary hemorrhage-nephritis syndrome](disease)
+- the reason for having a [whooping cough](disease) ah
+- the cause of [pulmonary actinomycosis](disease) a
+- how can i get [adult respiratory distress syndrome](disease)?
+- why got [allergic pneumonia](disease)
+- the cause of [benzene poisoning](disease) acridine
+- is the cause of [a large amount of amniotic fluid inhalation](disease) good?
+- why do you suffer from [pulmonary edema](disease)?
+- how can i get a [lung abscess](disease) ah
+- the cause of infection with [sars](disease)
+- it will cause birth of [pulmonary candidiasis](disease)
+- what causes [pulmonary embolism](disease)?
+- how can i get [carbon disulfide poisoning](disease) acridine
+- how can you get atypical pneumonia?
+- how to generate human respiratory distress syndrome ah
+- how can you suffer from [lung cancer](disease)
+- [pulmonary cryptococcosis](disease) cause
+- how can i suffer from [sars](disease)?
+- how can i have [cadmium poisoning](disease)?
+- will it cause [a cold](disease)?
+- why did you suffer from [wheezing bronchitis](disease)?
+- get on the alveolar protein deposition disease reason
+- what is the cause of the generation of human respiratory distress syndrome?
+- why [anaphylactic shock](disease) acridine
+- how can a [foreign body in the respiratory tract](disease) be born?
+- how can i get [pulmonary edema](disease) acridine
+- why did i get [carbon disulfide poisoning](disease) acridine
+- why [foreign body in the respiratory tract](disease)?
+- how can i get [sars](disease)?
+- why do you suffer from [anaphylactic shock](disease)?
+- how to get [septic shock](disease) acridine
+- why did you get [pneumonia](disease)?
+- suffering from [whooping cough](disease) causes ah
+- is it possible to have [simple pulmonary eosinophilic infiltration disease](disease) for good reasons?
+- causes of [lung cancer](disease) acridine
+- is the cause of infection with [pulmonary embolism](disease)?
+- why is [allergic pneumonia](disease) good?
+- causes of infection with [pulmonary bullae](disease)
+- will cause [pulmonary edema](disease) ah
+- causes of [allergic pneumonia](disease)
+- is the cause of [benzene poisoning](disease) good?
+- why did you have [radiation pneumonia](disease)?
+- why are you suffering from [radiation pneumonia](disease)
+- why is [anaphylactic shock](disease)?
+- how to suffer from [pulmonary hemorrhage-nephritis syndrome](disease)
+- what causes [lung cancer](disease)?
+- how can [alveolar protein deposition disease](disease) be good?
+- how to get [pulmonary embolism](disease) acridine
+- how to suffer from [pulmonary cryptococcosis](disease) ah
+- causes of [anaphylactic shock](disease)
+- the cause of building sickness syndrome a
+- got the cause of [pulmonary candidiasis](disease) ah
+- will it cause [lung cancer](disease)?
+- reasons for [lung cancer](disease) ah
+- the cause of building sickness syndrome
+- why is [pulmonary edema](disease)?
+- why is [respiratory bronchiole-related interstitial lung disease](disease) good?
+- how can [radiation pneumonia](disease) acridine
+- how to suffer from [pulmonary cryptococcosis](disease)
+- the reason for getting [pneumonia](disease)
+- causes of [pneumococcal pneumonia](disease) acridine
+- sheng lung [emphysema](disease) caused by ah
+- why give birth to alveolar protein deposition disease?
+- how to suffer from [alveolar proteinosis](disease)?
+- how to produce [cadmium poisoning](disease)?
+- how can i get [alveolar protein deposition disease](disease)?
+- causes of [pneumonia bacillus pneumonia](disease)
+- will cause [lung abscess](disease), alright
+- how to infect lung metastases?
+- how can i get alveolar proteinosis?
+- how to give birth to [pulmonary cryptococcosis](disease)?
+
+## intent:search_prevention
+- avoid [pneumococcal pneumonia](disease)
+- how can i not get [allergic pneumonia](disease)?
+- avoid the birth of pneumoniae pseudotumor
+- avoid infection with alveolar protein deposition disease
+- how can i not suffer from [adult respiratory distress syndrome](disease)
+- why not suffer from [pulmonary cryptococcosis](disease) acridine
+- escape from [pneumonia](disease)
+- dodging away sheng [alveolar protein deposition disease](disease)
+- why is it not [pneumonia](disease)?
+- how can we not give birth to [cadmium poisoning](disease) acridine
+- it’s okay to get away from the lungs.
+- how can i not [whooping cough](disease)?
+- why not give birth to [building sick syndrome](disease)?
+- how can it be a [foreign body in the respiratory tract](disease)?
+- avoid getting the lung big foam acridine
+- what's wrong? [mercury poisoning](disease)?
+- how can i avoid [allergic pneumonia](disease)
+- go around and give birth to [a cold](disease) acridine
+- how can i not suffer from pulmonary [bullae](disease)?
+- how can i not get [whooping cough](disease)?
+- how can you not get the [mercury poisoning](disease)
+- how can i not get [adult respiratory distress syndrome](disease)?
+- how to not give birth to [adult respiratory distress syndrome](disease) acridine
+- how can we not [pneumonia](disease)?
+- how can i not [pneumonia pseudotumor](disease) ah
+- how can we avoid [allergic pneumonia](disease)?
+- avoid infection of pulmonary [bullae](disease) acridine
+- how can i not have [bullae](disease)?
+- avoid getting infected with [sars](disease)
+- go around got [pulmonary candidiasis](disease)
+- prevent getting [lung-pleural amebiasis](disease)
+- go around [septic shock](disease)
+- how to not get [whooping cough](disease) acridine
+- how can we avoid [pulmonary cryptococcosis](disease)?
+- get away from the interstitial lung disease associated with respiratory bronchioles
+- it’s okay to resist having big pulmonary vesicles
+- how can i not suffer from [lobar pneumonia](disease)
+- how can we not be infected with [pulmonary aspergillosis](disease)?
+- how can i not be infected with respiratory bronchioles-related interstitial lung disease
+- how can we avoid [sars](disease)?
+- avoid the [pulmonary embolism](disease), okay
+- avoid being born with [pulmonary cryptococcosis](disease)?
+- prevention of [septic shock](disease) a
+- why not [pulmonary edema](disease)?
+- why not suffer from [anaphylactic shock](disease)?
+- how can i not [pulmonary candidiasis](disease)?
+- how can i not get [pneumonia pseudotumor](disease)?
+- how can i get rid of [emphysema](disease)
+- how can we not be infected with [cadmium poisoning](disease)?
+- it’s good to prevent [pulmonary edema](disease)
+- defend against interstitial lung diseases related to respiratory bronchioles
+- how can i avoid [pneumococcal pneumonia](disease)?
+- how can it be impossible for [pulmonary embolism](disease)
+- how can it be terrible [goodpasture syndrome](disease)?
+- how can we not have [pneumonia pseudotumor](disease)?
+- what's wrong? [pulmonary embolism](disease)
+- why don’t you have a [lung abscess](disease)?
+- escape from [allergic pneumonia](disease)
+- prevention of [pneumonia](disease) is good
+- it’s good to resist [pulmonary cryptococcosis](disease)
+- bypass the interstitial lung disease associated with respiratory bronchioles
+- why not give birth to [septic shock](disease) acridine
+- how can i not get [anaphylactic shock](disease)?
+- how can we not suffer from [lobar pneumonia](disease) acridine
+- how can it be a [building sick syndrome](disease)?
+- getting around the lungs-pleura amebiasis is good
+- how can i avoid [pulmonary actinomycosis](disease) acridine
+- how can i prevent [emphysema](disease)?
+- how can i avoid foreign bodies in the respiratory tract?
+- why don't you have [emphysema](disease)?
+- how can i not get [allergic pneumonia](disease)
+- why is it not simple pulmonary eosinophil infiltration disease?
+- bypassed [adult respiratory distress syndrome](disease) acridine
+- get around [anaphylactic shock](disease)
+- can bypass the wheezing-like bronchitis
+- how can we not have a lot of amniotic fluid inhalation?
+- fight against infection [goodpasture syndrome](disease)
+- how can i not [pulmonary hemorrhage-nephritis syndrome](disease)
+- how can i not have a [lung abscess](disease)?
+- can you avoid [cadmium poisoning](disease)?
+- how to avoid [respiratory bronchiole-related interstitial lung disease](disease)
+- do you bypass the [foreign body in the respiratory tract](disease)?
+- how can not [a large amount of amniotic fluid inhalation](disease)
+- how can i prevent respiratory bronchioles related interstitial lung disease
+- how to stop [pulmonary edema](disease) ah
+- how can i avoid the lung bulla?
+- escape from suffering from lung-pleural amoebiasis is good
+- how can we not be infected with [anaphylactic shock](disease)?
+- avoid infection with [pneumonia bacillus pneumonia](disease)
+- why can't you get [carbon disulfide poisoning](disease)?
+- prevent foreign bodies in the respiratory tract ah
+- how can i avoid [radiation pneumonia](disease)?
+- how can i not get [pulmonary edema](disease)
+- it’s okay to escape from suffering from lung metastases
+- escape to get infected with [alveolar protein deposition disease](disease)
+- avoid getting lung metastases
+- how can we avoid contracting [simple pulmonary eosinophilic infiltration disease](disease) acr
+- did you escape with [pulmonary edema](disease)?
+- how can i get rid of [carbon disulfide poisoning](disease)?
+- how can i avoid [a large amount of amniotic fluid inhalation](disease)?
+- how can i avoid [anaphylactic shock](disease)?
+- how can we avoid [carbon disulfide poisoning](disease) ah
+- how does it not [pneumonia](disease) acridine
+- why don’t you get on [mercury poisoning](disease)?
+- it’s okay to escape infection with [alveolar proteinosis](disease)
+- how can i not give birth to a large bladder?
+- why don’t you have [a cold](disease)?
+- how can we not [emphysema](disease) acridine
+- bypass the [lung metastasis](disease)
+- how can i not lung metastases
+- how can not go to large-leaf pneumonia?
+- what's wrong with [sars](disease)?
+- how can i not give birth to lung metastases?
+- how can i prevent [pulmonary embolism](disease)?
+- why don't you go to the [building sick syndrome](disease)?
+- why can't you get [radiation pneumonia](disease)?
+- how can we not [adult respiratory distress syndrome](disease) acridine
+- get around wheezing-like bronchitis
+- how can not give birth to [septic shock](disease)
+- how can we not be infected with [a large amount of amniotic fluid inhalation](disease) acridine
+- guard against [building sick syndrome](disease)?
+- how can i not get [cadmium poisoning](disease) acridine
+- how can we avoid pneumonia bacteria pneumonia?
+- how to prevent [allergic pneumonia](disease)
+- escape from [benzene poisoning](disease)?
+- why don’t you have [bullae](disease)?
+- avoid getting caught [a cold](disease)
+- avoid getting pulmonary-pleural amebiasis acridine
+- avoidance of [pulmonary cryptococcosis](disease)
+- go around sheng lung [emphysema](disease) acridine
+- why can't it be [a cold](disease)?
+- prevention of lung actinomycosis
+- how can we not be infected with [lobar pneumonia](disease)?
+- how can i get rid of [pulmonary candidiasis](disease) acridine
+- prevention of [pulmonary edema](disease) acridine
+- why not give birth to a [foreign body in the respiratory tract](disease) acridine
+- how to avoid [septic shock](disease)?
+- how to avoid alveolar protein deposition acridine
+- can you resist [radiation pneumonia](disease)?
+- avoid [carbon disulfide poisoning](disease)?
+- avoid being born with [mercury poisoning](disease)
+- how can we not suffer from [benzene poisoning](disease) acridine
+- how can we not suffer from [carbon disulfide poisoning](disease)
+- do you avoid being infected with [pulmonary candidiasis](disease)?
+- guard against [pneumonia bacillus pneumonia](disease)
+- how can i get rid of the lung bullae?
+- avoid foreign bodies in the respiratory tract.
+- avoid infection with [adult respiratory distress syndrome](disease)
+- avoid the [lung-pleural amebiasis](disease)?
+- avoidance on large leaf pneumonia
+- can it resist a lot of amniotic fluid inhalation?
+- resist the infection of [lung abscess](disease) ah
+- escape from [lung cancer](disease) acridine
+- why can't you get a [lung abscess](disease)?
+- avoid being born with [cadmium poisoning](disease) ah
+- avoid [pneumonia pseudotumor](disease)
+- can you prevent [cadmium poisoning](disease)?
+- avoid suffering from [a large amount of amniotic fluid inhalation](disease)
+- can you avoid [pulmonary embolism](disease)?
+- avoiding birth of [lung cancer](disease)
+- what's the matter with [whooping cough](disease)?
+- resist the birth of alveolar protein deposition disease
+- do you avoid [pulmonary cryptococcosis](disease)?
+- how can i not give birth to [whooping cough](disease)?
+- how can we not have [building sick syndrome](disease) ah
+- how can we not produce [cadmium poisoning](disease)?
+- why can’t i get [goodpasture syndrome](disease)?
+- how can i not be infected with [septic shock](disease)?
+- avoid [sars](disease)?
+- how can i not get [benzene poisoning](disease) acridine
+- how can i not suffer from [pneumonia pseudotumor](disease)
+- it's okay to escape the lung [bullae](disease)
+- avoid infection of [lung-pleural amebiasis](disease)?
+- why don't you get [pulmonary edema](disease)?
+- why not get a lot of amniotic fluid inhalation
+- how can you not get [a cold](disease)?
+- how can i not have [lung abscess](disease)?
+- can you resist [bullae](disease)?
+- how can i not give birth to a bulla?
+- how can i not give birth to [pneumonia pseudotumor](disease)
+- prevent [pulmonary aspergillosis](disease)
+- it’s good to avoid [cadmium poisoning](disease)
+- how can i not suffer from [a cold](disease)?
+- how can it be terrible [lung cancer](disease)?
+- how can it be ridden with [pulmonary candidiasis](disease)
+- avoid getting [pulmonary aspergillosis](disease)
+- how can we avoid [pneumonia](disease)?
+- prevent getting [adult respiratory distress syndrome](disease)
+- how can i not get [goodpasture syndrome](disease)?
+- keep away from the lungs
+- how can you not lung [bullae](disease)
+- prevent [benzene poisoning](disease)
+- how can we avoid [radiation pneumonia](disease) acridine
+- how can we not give birth to [benzene poisoning](disease) acridine
+- how to prevent wheezing-like bronchitis
+- it's good to avoid being infected with [pulmonary candidiasis](disease)
+- why don't you suffer from lung metastases acridine
+- do you avoid being infected with [pulmonary aspergillosis](disease)?
+- avoid infection with [pulmonary hemorrhage-nephritis syndrome](disease) ah
+- avoid [goodpasture syndrome](disease)
+- how can i not suffer from [pulmonary embolism](disease)?
+- avoid getting infected with lung aspergillosis?
+- prevent [lung metastasis](disease)
+- escape from [simple pulmonary eosinophilic infiltration disease](disease)
+- how can we avoid [pulmonary hemorrhage-nephritis syndrome](disease)?
+- how can we avoid building sickness syndrome?
+- how can i not give birth to [pulmonary hemorrhage-nephritis syndrome](disease)
+- how can i not get wheezing-like bronchitis acridine
+- how can we not give birth to large leaf pneumonia
+- how can i not be infected with [goodpasture syndrome](disease)?
+- why is there no [pulmonary edema](disease)?
+- how can i not suffer from [septic shock](disease)?
+- avoid being born with [pulmonary aspergillosis](disease)
+- how can i not catch lung metastases?
+- resist the [lung abscess](disease)?
+- can you resist the [building sick syndrome](disease)?
+- is it against [pulmonary embolism](disease)?
+- how can i not catch [pneumonia bacillus pneumonia](disease)?
+- resistance to [anaphylactic shock](disease) a
+- what is [pneumonia](disease)?
+- how not to have alveolar protein deposits?
+- prevention of [whooping cough](disease) is good
+- how can we avoid [emphysema](disease)?
+- prevent the birth of big pulmonary vesicles
+- how can it be [cadmium poisoning](disease)?
+- it’s not that good. simple pulmonary eosinophil infiltration disease acr
+- avoid [whooping cough](disease)?
+- how can we avoid [carbon disulfide poisoning](disease)
+- what's the matter? respiratory bronchioles-related interstitial lung disease
+- get away with [benzene poisoning](disease)
+- avoid getting infected with simple pulmonary eosinophil infiltration disease
+- how can i not get [pneumococcal pneumonia](disease)?
+- bypass the infection [pulmonary hemorrhage-nephritis syndrome](disease) is good
+- do you escape with [benzene poisoning](disease)?
+- avoid getting [pulmonary edema](disease) acridine
+- avoid suffering from [carbon disulfide poisoning](disease) ah
+- get around the infection of pulmonary [bullae](disease)
+- how can i not suffer from [pneumococcal pneumonia](disease) acridine
+- it can resist the lung [bullae](disease)
+- how can i not suffer from [pulmonary hemorrhage-nephritis syndrome](disease)
+- how can we not have [pneumonia](disease)?
+- how can i not [pulmonary aspergillosis](disease)?
+- how can i not be infected with [pulmonary candidiasis](disease)?
+- can get away with [cadmium poisoning](disease)
+- prevention of atypical pneumonia acridine
+- how to not [lung cancer](disease)
+- how can i prevent [respiratory bronchiole-related interstitial lung disease](disease)?
+
+## intent:search_easy_get
+- easy to be infected with [pulmonary candidiasis](disease)
+- susceptible people [whooping cough](disease) ah
+- [emphysema](disease) in the susceptible population ah
+- is it easy to get [pulmonary embolism](disease)?
+- susceptible population [lung-pleural amebiasis](disease)
+- [pulmonary bullae](disease) in susceptible people
+- who is good for [pulmonary embolism](disease)?
+- [anaphylactic shock](disease) in susceptible population
+- who is wheezing-like bronchitis acridine
+- are you susceptible to building sickness syndrome?
+- people who are prone to [whooping cough](disease)
+- who is the lung bullae?
+- what kind of alveolar protein deposition disorder?
+- who is a lot of amniotic fluid inhalation?
+- what is the susceptible population of [septic shock](disease)?
+- [pulmonary cryptococcosis](disease) in susceptible population
+- what person [building sick syndrome](disease) ah
+- easily infected with [pneumonia pseudotumor](disease) a
+- [respiratory bronchiole-related interstitial lung disease](disease) in vulnerable population acr
+- who are the lungs?
+- [pulmonary cryptococcosis](disease) in vulnerable populations is good
+- what kind of [foreign body in the respiratory tract](disease)?
+- who is [building sick syndrome](disease) good?
+- people who are susceptible to [benzene poisoning](disease)
+- who are [carbon disulfide poisoning](disease) acridine
+- people who are prone to [benzene poisoning](disease)
+- who is [anaphylactic shock](disease)?
+- [anaphylactic shock](disease) is good for people who are prone to
+- susceptible population [pulmonary hemorrhage-nephritis syndrome](disease) acr
+- do people who are prone to pulmonary [bullae](disease)?
+- pulmonary [bullae](disease)?
+- susceptible population [allergic pneumonia](disease) acridine
+- prone population [goodpasture syndrome](disease) a
+- easily infected with alveolar protein deposition disease
+- [pneumonia pseudotumor](disease)?
+- what kind of [pneumonia bacillus pneumonia](disease)?
+- easily infected with wheezing-like bronchitis
+- pulmonary-pleural amebiasis?
+- people who are prone to [pulmonary edema](disease) ah
+- susceptible people [benzene poisoning](disease)
+- susceptible people [goodpasture syndrome](disease)
+- whose [simple pulmonary eosinophilic infiltration disease](disease)?
+- who is good for [lung cancer](disease)?
+- is it easy to get [lung abscess](disease)?
+- people who are susceptible to [mercury poisoning](disease)
+- what kind of [emphysema](disease)?
+- susceptible people [carbon disulfide poisoning](disease)
+- easily infected with [emphysema](disease)
+- [alveolar protein deposition disease](disease) in prone population
+- easy to get [lung cancer](disease)
+- who is poisoned by carbon disulfide?
+- what kind of [pulmonary candidiasis](disease)?
+- people who are susceptible to alveolar protein deposits?
+- susceptible people [a large amount of amniotic fluid inhalation](disease) acridine
+- are you susceptible to [lung cancer](disease)?
+- susceptible population [carbon disulfide poisoning](disease)?
+- are there any foreign bodies in the respiratory tract of susceptible people?
+- is it prone to [allergic pneumonia](disease)?
+- people who are prone to [pneumococcal pneumonia](disease)
+- who are the respiratory bronchioles-related interstitial lung diseases?
+- easy to be infected with [lobar pneumonia](disease)
+- easy to be infected with [septic shock](disease)?
+- susceptible population [radiation pneumonia](disease) acridine
+- easy to get [pneumonia](disease)
+- easy to get [goodpasture syndrome](disease)
+- [pneumonia bacillus pneumonia](disease)?
+- easy to be infected with [pulmonary cryptococcosis](disease)
+- easy to catch [a cold](disease) acridine
+- what is [adult respiratory distress syndrome](disease)?
+- is it easy to get [benzene poisoning](disease)?
+- is the susceptible population [anaphylactic shock](disease)?
+- what kind of [mercury poisoning](disease)?
+- who is [pulmonary candidiasis](disease)?
+- who is [lung abscess](disease)
+- what people big leaf pneumonia acridine
+- who is [pulmonary hemorrhage-nephritis syndrome](disease)?
+- easy to get [pneumonia bacillus pneumonia](disease)
+- who is [goodpasture syndrome](disease) good?
+- what is [sars](disease)?
+- what person is [simple pulmonary eosinophilic infiltration disease](disease)
+- who has [a cold](disease)?
+- it’s okay for people who are prone to have [a cold](disease)
+- good people who are prone to [lung cancer](disease)
+- [pulmonary actinomycosis](disease) in susceptible people is good
+- [pulmonary aspergillosis](disease) in prone populations is good
+- easy to be infected with [pulmonary hemorrhage-nephritis syndrome](disease)?
+- what is the [foreign body in the respiratory tract](disease)?
+- prone population [goodpasture syndrome](disease)
+- who is [sars](disease) good?
+- susceptible people [lung cancer](disease)
+- who is [pulmonary aspergillosis](disease)?
+- [whooping cough](disease)?
+- people who are prone to [pulmonary hemorrhage-nephritis syndrome](disease)?
+- [mercury poisoning](disease) in prone people?
+- it’s easy to catch [a cold](disease).
+- who is [pulmonary edema](disease)?
+- who pertussis?
+- [allergic pneumonia](disease) in susceptible people is good
+- [pulmonary candidiasis](disease) in susceptible population
+- who is [mercury poisoning](disease)?
+- easy to get [lung cancer](disease) acridine
+- what is [cadmium poisoning](disease) in prone people?
+- susceptible people [pulmonary aspergillosis](disease)
+- [allergic pneumonia](disease) in susceptible people
+- who is good for [cadmium poisoning](disease)?
+- easy to be infected with [septic shock](disease)
+- is it easy to get [whooping cough](disease)?
+- easily infected with [mercury poisoning](disease)
+- who is good for [lung abscess](disease)?
+- what kind of lung actinomycosis is good?
+- alveolar protein deposits in susceptible people is good
+- susceptible population [cadmium poisoning](disease)
+- people who are prone to [pneumonia](disease) are good
+- what person is simple pulmonary eosinophil infiltration disease acridine
+- who is [pulmonary embolism](disease)
+- easy to contract [radiation pneumonia](disease)
+- [emphysema](disease) in susceptible population
+- [allergic pneumonia](disease) in susceptible population
+- easy to be infected with foreign bodies in the respiratory tract acridine
+- people who are prone to [pneumococcal pneumonia](disease) are good
+- [emphysema](disease) is good for people who are prone to develop
+- [allergic pneumonia](disease)
+- easy to be infected with foreign bodies in the respiratory tract
+- [pulmonary cryptococcosis](disease) in vulnerable population
+- easy to be infected with [carbon disulfide poisoning](disease) acridine
+- easily infected with [lobar pneumonia](disease)
+- what person [benzene poisoning](disease) acridine
+- easy to get [pneumococcal pneumonia](disease)
+- what kind of lung [bullae](disease)?
+- susceptible population of common cold
+- what is the susceptible population? [lobar pneumonia](disease)
+- is a large amount of amniotic fluid inhaled in susceptible people?
+- is it easy to infect [lung abscess](disease)?
+- who is [lobar pneumonia](disease)?
+- easy to infect [lung abscess](disease) ah
+- [lung cancer](disease) in susceptible people is good
+- people prone to [carbon disulfide poisoning](disease)
+- what people catch [a cold](disease)
+- respiratory foreign body in susceptible population
+- people who are susceptible to [sars](disease)
+
+## intent:search_disease_dept
+- what kind of department do lung bullae belong to?
+- [benzene poisoning](disease) department
+- what kind of department does [pulmonary embolism](disease) belong to?
+- [respiratory bronchiole-related interstitial lung disease](disease) is a good thing
+- [adult respiratory distress syndrome](disease) department is good
+- [lung abscess](disease) belongs to ah
+- what section of [adult respiratory distress syndrome](disease)?
+- what kind of department does [a large amount of amniotic fluid inhalation](disease) belong to?
+- what is a lot of amniotic fluid inhalation?
+- [goodpasture syndrome](disease) department acridine
+- what is the cold?
+- what department of alveolar proteinosis?
+- department of lung bullae
+- what family do lung bullae belong to?
+- what does [a cold](disease) belong to? kea
+- what department of simple pulmonary eosinophilic infiltration?
+- what branch does [carbon disulfide poisoning](disease) belong to?
+- does [sars](disease) belong?
+- department of [radiation pneumonia](disease)
+- department of respiratory foreign body
+- [pneumonia pseudotumor](disease) what is good?
+- what's the branch of [pulmonary bullae](disease)?
+- [respiratory bronchiole-related interstitial lung disease](disease) belongs to
+- what is the best course of [anaphylactic shock](disease)?
+- what section does [pneumonia](disease) belong to?
+- [pulmonary bullae](disease) department
+- what is the best course of [pulmonary edema](disease)?
+- [pneumonia bacillus pneumonia](disease) belongs to ah
+- [lung cancer](disease) department a
+- does [pneumonia pseudotumor](disease) belong?
+- what family does [cadmium poisoning](disease) belong to?
+- what does [lung metastasis](disease) belong to?
+- [pneumonia pseudotumor](disease) department a
+- respiratory foreign body belongs to
+- [pulmonary aspergillosis](disease) belongs to ah
+- [pulmonary edema](disease) belongs to
+- [adult respiratory distress syndrome](disease) belongs to good
+- what department of building sickness syndrome
+- what department does [pneumonia](disease) belong to?
+- what department does [wheezing bronchitis](disease) belong to?
+- [pneumonia bacillus pneumonia](disease) department a
+- [cadmium poisoning](disease) belongs to it
+- does a lot of amniotic fluid inhalation belong?
+- [sars](disease) belongs to ah
+- what is [goodpasture syndrome](disease)?
+- what is the branch of [pulmonary actinomycosis](disease)?
+- [whooping cough](disease) is good?
+- department of [mercury poisoning](disease)?
+- [pneumonia](disease) department a
+- [pneumonia](disease) department ye
+- what department does [adult respiratory distress syndrome](disease) belong to?
+- what department does a large amount of amniotic fluid belong to?
+- a lot of amniotic fluid aspiration department
+- [radiation pneumonia](disease) is good
+- does [wheezing bronchitis](disease) belong to
+- [sars](disease) department?
+- what does [allergic pneumonia](disease) belong to?
+- department of respiratory foreign body ye
+- what department does [lung abscess](disease) belong to?
+- [pulmonary hemorrhage-nephritis syndrome](disease) belongs to what?
+- department of [lobar pneumonia](disease)?
+- [whooping cough](disease) what department
+- [respiratory bronchiole-related interstitial lung disease](disease) belongs to what department?
+- alveolar proteinosis belongs to
+- [pneumonia](disease) department
+- [cadmium poisoning](disease) belongs to
+- does [lung cancer](disease) belong?
+- lung-pleural amoebiasis belongs to ah
+- department of [pulmonary edema](disease)?
+- [pulmonary hemorrhage-nephritis syndrome](disease) what department ah
+- what section of [adult respiratory distress syndrome](disease)
+- department of [emphysema](disease)?
+- alveolar proteinosis belongs to ah
+- pulmonary-pleural amoebiasis belongs to
+- department of [allergic pneumonia](disease)
+- what department does alveolar proteinosis belong to?
+- department of [pulmonary aspergillosis](disease)
+- [pulmonary cryptococcosis](disease) department ye
+- [pulmonary actinomycosis](disease) belongs to ah
+- what section does the lung bulla belong to?
+- alveolar protein deposition disease department ah
+- [adult respiratory distress syndrome](disease) what is good?
+- what kind of department does [lung abscess](disease) belong to?
+- what department of [pulmonary actinomycosis](disease)
+- [pneumonia](disease) belongs to it
+- lung bullae belong to it
+- [pneumonia bacillus pneumonia](disease) belongs to
+- department of [septic shock](disease)?
+- simple pulmonary eosinophilic infiltration syndrome belongs to ah
+- [building sick syndrome](disease) belongs to
+- what section does [lobar pneumonia](disease) belong to?
+- [pulmonary embolism](disease) what is good?
+- department of alveolar protein deposition disease
+- what is [benzene poisoning](disease)?
+- what is the common cold?
+- [pulmonary cryptococcosis](disease) belongs to ah
+- department of [pulmonary embolism](disease)?
+- what is the best course of [radiation pneumonia](disease)?
+- what is the poisoning of carbon disulfide?
+- [lung-pleural amebiasis](disease) belongs to it
+- [building sick syndrome](disease) is good
+- [benzene poisoning](disease) belongs to
+- [whooping cough](disease) belongs to you
+- [pneumonia pseudotumor](disease) department ye
+- alveolar protein deposition syndrome belongs to ah
+- [radiation pneumonia](disease) section
+- what family does [bullae](disease) belong to?
+- what kind of [wheezing bronchitis](disease) belongs to?
+- [pneumococcal pneumonia](disease) what is good?
+- [pulmonary cryptococcosis](disease) department?
+- what kind of department is [lung metastasis](disease)?
+- [pneumococcal pneumonia](disease) department
+- [respiratory bronchiole-related interstitial lung disease](disease) department a
+- what is the department of [lung abscess](disease)?
+- what kind of department does [lung cancer](disease) belong to?
+- [pulmonary embolism](disease) department is good
+- [cadmium poisoning](disease) belongs to ah
+- what is good for [a cold](disease)?
+- [carbon disulfide poisoning](disease) belongs to ah
+- [pulmonary candidiasis](disease) department a
+- what department does [allergic pneumonia](disease) belong to?
+- pulmonary metastasis what section
+- [pulmonary candidiasis](disease) what is good?
+- [goodpasture syndrome](disease) department a
+- what family does [pulmonary aspergillosis](disease) belong to?
+
+## synonym:Delhi
+- New Delhi
+- Old Delhi
+- Del
+- Nizamuddin
+
+## synonym:Mumbai
+- Bombay
+- Mum
+
+## synonym:allergy
+- allergies
+
+## synonym:angry
+- disgusted
+- flabergasted
+- annoyed
+- irritated
+- irate
+- cross
+- vexed
+- exasperated
+- inflamed
+- indignant
+- aggrieved
+- irked
+- piqued
+- displeased
+- outraged
+- aggravated
+- disgust
+- outrage
+- annoyance
+- irritation
+- vex
+- exasperation
+- flame
+- indignance
+- irk
+- pique
+- aggravation
+
+## synonym:bp
+- systolic
+- blood pressure
+- diastolic
+
+## synonym:happy
+- overjoyed
+- excited
+- joyful
+- contented
+- content
+- cheerful
+- merry
+- jovial
+- smiling
+- gratified
+- radiant
+- over the moon
+- jolly good
+- jolly
+- excitement
+- joy
+- happiness
+- gratification
+- radiance
+
+## synonym:height
+- how tall i was
+
+## synonym:sad
+- unhappy
+- dejected
+- down
+- out of sorts
+- depressed
+- lonely
+- suicidal
+- pain
+- suffering
+- grieving
+- death
+- mourning
+- miserable
+- not happy
+- sorrow
+- grief
+- unhappiness
+- grieve
+- dejection
+- depression
+- loneliness
+- misery
+
+## synonym:weight
+- how healthy i was
+
+## regex:file
+- ^(Qm)(\w+)$
+
+## lookup:disease
+  data/lookup/disease.txt
+
+## lookup:department
+  data/lookup/department.txt
+
+## lookup:symptoms
+  data/lookup/symptoms.txt

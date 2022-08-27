@@ -1,0 +1,86 @@
+{
+  "username": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "doctor": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 42
+  },
+  "symptom": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 413
+  },
+  "disease": {
+    "precision": 0.9827302631578947,
+    "recall": 0.991701244813278,
+    "f1-score": 0.9871953738124741,
+    "support": 2410
+  },
+  "file": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "time": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 343
+  },
+  "emotion": {
+    "precision": 1.0,
+    "recall": 0.9873417721518988,
+    "f1-score": 0.9936305732484078,
+    "support": 79
+  },
+  "records": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 109
+  },
+  "query": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 169
+  },
+  "location": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 42
+  },
+  "name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "micro avg": {
+    "precision": 0.9884456671251719,
+    "recall": 0.9941892639734367,
+    "f1-score": 0.9913091460891158,
+    "support": 3614
+  },
+  "macro avg": {
+    "precision": 0.9984300239234449,
+    "recall": 0.998094819724107,
+    "f1-score": 0.9982569042782621,
+    "support": 3614
+  },
+  "weighted avg": {
+    "precision": 0.9884836563947222,
+    "recall": 0.9941892639734367,
+    "f1-score": 0.9913219884268641,
+    "support": 3614
+  }
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "text": "good morning",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodmorning",
+      "confidence": 0.9935601353645325
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "smalltalk_greetings_goodevening",
+      "confidence": 0.9836549162864685
+    }
+  },
+  {
+    "text": "perfect",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_good",
+      "confidence": 0.9972002506256104
+    }
+  },
+  {
+    "text": "very good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_good",
+      "confidence": 0.9962239265441895
+    }
+  },
+  {
+    "text": "great",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_good",
+      "confidence": 0.9947622418403625
+    }
+  },
+  {
+    "text": "amazing",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_good",
+      "confidence": 0.9938790202140808
+    }
+  },
+  {
+    "text": "wonderful",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_good",
+      "confidence": 0.9960616230964661
+    }
+  },
+  {
+    "text": "I am feeling very good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "get_emotion",
+      "confidence": 0.9929677844047546
+    }
+  },
+  {
+    "text": "I am great",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "smalltalk_user_good",
+      "confidence": 0.9779119491577148
+    }
+  },
+  {
+    "text": "I'm good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "smalltalk_user_good",
+      "confidence": 0.9618492126464844
+    }
+  },
+  {
+    "text": "sad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.9809421300888062
+    }
+  },
+  {
+    "text": "very sad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_cancel",
+      "confidence": 0.4179871082305908
+    }
+  },
+  {
+    "text": "unhappy",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "get_emotion",
+      "confidence": 0.9926048517227173
+    }
+  },
+  {
+    "text": "bad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.9980480670928955
+    }
+  },
+  {
+    "text": "very bad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.9985918998718262
+    }
+  },
+  {
+    "text": "awful",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.9979082942008972
+    }
+  },
+  {
+    "text": "terrible",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.9932781457901001
+    }
+  },
+  {
+    "text": "not very good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "smalltalk_appraisal_bad",
+      "confidence": 0.9943804740905762
+    }
+  },
+  {
+    "text": "extremely sad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "search_treat",
+      "confidence": 0.7308019399642944
+    }
+  },
+  {
+    "text": "so sad",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "smalltalk_confirmation_cancel",
+      "confidence": 0.698154866695404
+    }
+  },
+  {
+    "text": "are you a bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "smalltalk_agent_chatbot",
+      "confidence": 0.9735127687454224
+    }
+  },
+  {
+    "text": "are you a human?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "smalltalk_agent_good",
+      "confidence": 0.5673432946205139
+    }
+  },
+  {
+    "text": "am I talking to a bot?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "smalltalk_agent_talk_to_me",
+      "confidence": 0.43238773941993713
+    }
+  },
+  {
+    "text": "am I talking to a human?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "smalltalk_agent_talk_to_me",
+      "confidence": 0.6036569476127625
+    }
+  }
+]
