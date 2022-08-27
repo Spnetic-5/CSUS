@@ -48,12 +48,11 @@ df = pd.read_csv("model/20200325_counsel_chat.csv",encoding="utf-8")
 y = le.fit_transform(df['topic'])
 
 tags = ['addiction', 'anger-management', 'anxiety', 'behavioral-change',
-   'children-adolescents', 'depression',
-   'diagnosis', 'domestic-violence', 'eating-disorders',
-   'family-conflict', 'grief-and-loss', 'human-sexuality', 'intimacy', 'lgbtq', 'marriage', 'military-issues',
+   'children-adolescents', 'depression', 'domestic-violence', 'eating-disorders',
+   'family-conflict', 'grief-and-loss', 'intimacy',
    'parenting', 'professional-ethics', 'relationship-dissolution',
    'relationships', 'self-esteem', 'self-harm', 'sleep-improvement',
-   'social-relationships', 'spirituality', 'stress',
+   'social-relationships','stress',
    'substance-abuse', 'trauma', 'workplace-relationships']
 
 dict = {}
@@ -170,7 +169,7 @@ def predictor(userText):
     print()
     return answer
     
-greetings = ['hi','hey', 'hello', 'heyy', 'hi', 'hey', 'good evening', 'good morning', 'good afternoon', 'good', 'fine', 'okay', 'great', 'could be better', 'not so great', 'very well thanks', 'fine and you', "i'm doing well", 'pleasure to meet you', 'hi whatsup']
+greetings = ['hi','hey', 'hello', 'hello CSUS', 'heyy', 'hi', 'hey', 'good evening', 'good morning', 'good afternoon', 'good', 'fine', 'okay', 'great', 'could be better', 'not so great', 'very well thanks', 'fine and you', "i'm doing well", 'pleasure to meet you', 'hi whatsup']
 happy_emotions = ['i feel good', 'life is good', 'life is great', "i've had a wonderful day", "i'm doing good"]
 goodbyes = ['thank you', 'thank you', 'yes bye', 'bye', 'thanks and bye', 'ok thanks bye', 'goodbye', 'see ya later', 'alright thanks bye', "that's all bye", 'nice talking with you', 'i’ve gotta go', 'i’m off', 'good night', 'see ya', 'see ya later', 'catch ya later', 'adios', 'talk to you later', 'bye bye', 'all right then', 'thanks', 'thank you', 'thx', 'thx bye', 'thnks', 'thank u for ur help', 'many thanks', 'you saved my day', 'thanks a bunch', "i can't thank you enough", "you're great", 'thanks a ton', 'grateful for your help', 'i owe you one', 'thanks a million', 'really appreciate your help', 'no', 'no goodbye']
 

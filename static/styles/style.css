@@ -97,6 +97,8 @@ body {
 .msg-info-name {
   margin-right: 10px;
   font-weight: bold;
+  color: #000000;
+
 }
 .msg-info-time {
   font-size: 0.85em;
@@ -110,8 +112,8 @@ body {
   flex-direction: row-reverse;
 }
 .right-msg .msg-bubble {
-  background: var(--right-msg-bg);
-  color: #fff;
+  background: #99edc3;
+  color: #000000;
   border-bottom-right-radius: 0;
 }
 .right-msg .msg-img {
@@ -146,8 +148,8 @@ body {
   background: rgb(0, 180, 50);
 }
 .msger-chat {
-  background-color: #d8bfd8;
-  background-image: url("https://t3.ftcdn.net/jpg/02/99/19/76/360_F_299197628_lIbANuaFTgWMx7KLb4pINy2MxLqqEbUq.jpg");
+  background-color: #333333;
+  background-image: url("https://files.slack.com/files-pri/TM98LD8DQ-F03VBK9EMKP/image.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
