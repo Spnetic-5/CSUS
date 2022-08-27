@@ -19,8 +19,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![demo](https://user-images.githubusercontent.com/62751545/187034553-9e217ad2-1521-4c67-81fd-8fcf432e5bd0.jpeg)
 
 A Medical Health Assistant with Complex Medical Question Answering
 
